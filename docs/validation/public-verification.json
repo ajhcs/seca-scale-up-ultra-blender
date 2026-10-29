@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checks": {
+    "all selected meshes identical after image removal": true,
+    "no source images embedded": true,
+    "voice clips remain packed": true,
+    "packed voice matches portable audio files": true,
+    "packed font matches portable font file": true,
+    "no linked libraries": true,
+    "exported scripts match embedded texts": true,
+    "synthetic simulator runs after reopen": true,
+    "packed voice tokens decode": true,
+    "display study runs after reopen": true
+  },
+  "source_selection_count": 263,
+  "scope": "Local reopen, evaluated modeled surface preservation and bounded synthetic checks only; no physical or clinical validation."
+}

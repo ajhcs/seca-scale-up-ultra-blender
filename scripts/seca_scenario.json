@@ -1,0 +1,522 @@
+{
+  "schema": "seca-study-scenario/1",
+  "scope": "Illustrative composite sequence: manual pp26,30,49-51,59-60; injected fault, values, timings and path are study assumptions.",
+  "events": [
+    {
+      "type": "set",
+      "name": "cal_area_clear",
+      "value": true,
+      "label": "Confirm clear study area",
+      "expect": {}
+    },
+    {
+      "type": "set",
+      "name": "cal_duration",
+      "value": 1.0,
+      "label": "Set assumed scan duration",
+      "expect": {}
+    },
+    {
+      "type": "action",
+      "name": "CAL_START",
+      "label": "Open illustrative calibration",
+      "expect": {
+        "cal_stage": "INTRO"
+      }
+    },
+    {
+      "type": "action",
+      "name": "CAL_NEXT",
+      "label": "Prepare empty scan",
+      "expect": {
+        "cal_stage": "WAIT_EMPTY"
+      }
+    },
+    {
+      "type": "action",
+      "name": "CAL_NEXT",
+      "label": "Begin empty scan",
+      "expect": {
+        "cal_stage": "EMPTY_SCAN"
+      }
+    },
+    {
+      "type": "advance",
+      "seconds": 1.0,
+      "label": "Complete empty scan",
+      "expect": {
+        "cal_stage": "WAIT_ROD"
+      }
+    },
+    {
+      "type": "set",
+      "name": "cal_rod_placed",
+      "value": true,
+      "label": "Place study rod",
+      "expect": {
+        "cal_stage": "ROD_SCAN"
+      }
+    },
+    {
+      "type": "advance",
+      "seconds": 1.0,
+      "label": "Complete rod scan",
+      "expect": {
+        "cal_stage": "SUCCESS"
+      }
+    },
+    {
+      "type": "action",
+      "name": "CAL_NEXT",
+      "label": "Request rod removal",
+      "expect": {
+        "cal_stage": "REMOVE_ROD"
+      }
+    },
+    {
+      "type": "set",
+      "name": "cal_rod_placed",
+      "value": false,
+      "label": "Remove study rod",
+      "expect": {}
+    },
+    {
+      "type": "action",
+      "name": "CAL_NEXT",
+      "label": "Finish study calibration",
+      "expect": {
+        "cal_stage": "IDLE",
+        "cal_valid": true
+      }
+    },
+    {
+      "type": "set",
+      "name": "mock_network",
+      "value": true,
+      "label": "Enable local receiver",
+      "expect": {}
+    },
+    {
+      "type": "set",
+      "name": "synthetic_id",
+      "value": "DEMO-SCENARIO-001",
+      "label": "Set fictional barcode",
+      "expect": {}
+    },
+    {
+      "type": "set",
+      "name": "synthetic_user_id",
+      "value": "DEMO-OPERATOR",
+      "label": "Set fictional operator",
+      "expect": {}
+    },
+    {
+      "type": "set",
+      "name": "gross_kg",
+      "value": 70.0,
+      "label": "Set synthetic body weight",
+      "expect": {}
+    },
+    {
+      "type": "set",
+      "name": "height_cm",
+      "value": 170.0,
+      "label": "Set synthetic height",
+      "expect": {}
+    },
+    {
+      "type": "set",
+      "name": "dynamic_weight",
+      "value": true,
+      "label": "Enable timed synthetic weighing",
+      "expect": {}
+    },
+    {
+      "type": "set",
+      "name": "timed_height",
+      "value": true,
+      "label": "Enable timed synthetic height",
+      "expect": {}
+    },
+    {
+      "type": "set",
+      "name": "height_duration",
+      "value": 2.0,
+      "label": "Set assumed height duration",
+      "expect": {}
+    },
+    {
+      "type": "action",
+      "name": "MODE_RESTART",
+      "label": "Open mode selection",
+      "expect": {
+        "self_stage": "SELECT"
+      }
+    },
+    {
+      "type": "action",
+      "name": "SELF_NEXT",
+      "label": "Select self measurement",
+      "expect": {
+        "self_stage": "READY"
+      }
+    },
+    {
+      "type": "action",
+      "name": "STEP_ON",
+      "label": "Synthetic participant steps on",
+      "expect": {
+        "self_stage": "CLOTHING",
+        "loaded": true
+      }
+    },
+    {
+      "type": "action",
+      "name": "SELF_NEXT",
+      "label": "Confirm clothing prompt",
+      "expect": {
+        "self_stage": "ID"
+      }
+    },
+    {
+      "type": "action",
+      "name": "SELF_NEXT",
+      "label": "Accept fictional scan",
+      "expect": {
+        "self_stage": "WEIGHT",
+        "self_id": "DEMO-SCENARIO-001",
+        "state": "UNSTABLE"
+      }
+    },
+    {
+      "type": "advance",
+      "seconds": 4.0,
+      "label": "Wait for simulated weight stability",
+      "expect": {
+        "state": "WEIGHED",
+        "self_stage": "WEIGHT"
+      }
+    },
+    {
+      "type": "action",
+      "name": "SELF_NEXT",
+      "label": "Move to height preparation",
+      "expect": {
+        "self_stage": "HEIGHT_PREP"
+      }
+    },
+    {
+      "type": "action",
+      "name": "SELF_NEXT",
+      "label": "Start synthetic height measurement",
+      "expect": {
+        "self_stage": "HEIGHT_RUNNING",
+        "height_measuring": true
+      }
+    },
+    {
+      "type": "advance",
+      "seconds": 2.0,
+      "label": "Complete synthetic height",
+      "expect": {
+        "self_stage": "HEIGHT_READ",
+        "height_measuring": false
+      }
+    },
+    {
+      "type": "action",
+      "name": "SELF_NEXT",
+      "label": "Accept synthetic height",
+      "expect": {
+        "self_stage": "RESULT",
+        "state": "RESULT",
+        "measured_height_cm": 170.0
+      }
+    },
+    {
+      "type": "action",
+      "name": "SELF_NEXT",
+      "label": "Queue local mock result",
+      "expect": {
+        "self_stage": "FINISHED",
+        "transfer_state": "PENDING"
+      }
+    },
+    {
+      "type": "advance",
+      "seconds": 1.1,
+      "label": "Acknowledge local mock result",
+      "expect": {
+        "transfer_state": "ACKNOWLEDGED"
+      }
+    },
+    {
+      "type": "set",
+      "name": "fault_scenario",
+      "value": "CORNER",
+      "label": "Select manually injected corner fault",
+      "expect": {}
+    },
+    {
+      "type": "action",
+      "name": "FAULT_INJECT",
+      "label": "Inject illustrative fault",
+      "expect": {
+        "fault_active": "CORNER",
+        "state": "FAULT",
+        "view_mode": "FAULT"
+      }
+    },
+    {
+      "type": "action",
+      "name": "SELF_NEXT",
+      "label": "Fault blocks progression",
+      "expect": {
+        "fault_active": "CORNER",
+        "state": "FAULT"
+      }
+    },
+    {
+      "type": "action",
+      "name": "STEP_OFF",
+      "label": "Unload after injected fault",
+      "expect": {
+        "loaded": false,
+        "fault_active": "CORNER"
+      }
+    },
+    {
+      "type": "set",
+      "name": "fault_scenario",
+      "value": "NONE",
+      "label": "Clear injected condition",
+      "expect": {}
+    },
+    {
+      "type": "action",
+      "name": "FAULT_RESTART",
+      "label": "Recover from illustrative fault",
+      "expect": {
+        "fault_active": "NONE",
+        "self_stage": "SELECT",
+        "state": "READY"
+      }
+    },
+    {
+      "type": "action",
+      "name": "SELF_BACK",
+      "label": "Choose guided mode",
+      "expect": {
+        "measurement_mode": "GUIDED",
+        "view_mode": "MAIN"
+      }
+    },
+    {
+      "type": "set",
+      "name": "drip_guard_removed",
+      "value": true,
+      "label": "Remove guard for simulated relocation",
+      "expect": {}
+    },
+    {
+      "type": "set",
+      "name": "disconnected",
+      "value": true,
+      "label": "Disconnect modeled cables",
+      "expect": {
+        "disconnected": true
+      }
+    },
+    {
+      "type": "action",
+      "name": "STEP_ON",
+      "label": "Power interlock blocks weighing",
+      "expect": {
+        "loaded": false,
+        "disconnected": true
+      }
+    },
+    {
+      "type": "set",
+      "name": "transport_angle",
+      "value": 0.2,
+      "label": "Tilt assumed kinematic rig",
+      "expect": {
+        "transport_angle": 0.2,
+        "cal_valid": false
+      }
+    },
+    {
+      "type": "set",
+      "name": "arc_distance",
+      "value": 0.5,
+      "label": "Set fictional path length",
+      "expect": {}
+    },
+    {
+      "type": "set",
+      "name": "arc_yaw",
+      "value": 0.15,
+      "label": "Set fictional path turn",
+      "expect": {}
+    },
+    {
+      "type": "action",
+      "name": "TRANSPORT_ARC",
+      "label": "Move along hypothetical arc",
+      "expect": {}
+    },
+    {
+      "type": "set",
+      "name": "transport_angle",
+      "value": 0.0,
+      "label": "Return upright",
+      "expect": {
+        "transport_angle": 0.0
+      }
+    },
+    {
+      "type": "set",
+      "name": "disconnected",
+      "value": false,
+      "label": "Reconnect modeled cables",
+      "expect": {
+        "disconnected": false
+      }
+    },
+    {
+      "type": "set",
+      "name": "drip_guard_removed",
+      "value": false,
+      "label": "Reinstall guard",
+      "expect": {}
+    },
+    {
+      "type": "action",
+      "name": "CAL_START",
+      "label": "Open post-move calibration",
+      "expect": {
+        "cal_stage": "INTRO",
+        "cal_valid": false
+      }
+    },
+    {
+      "type": "action",
+      "name": "CAL_NEXT",
+      "label": "Prepare post-move empty scan",
+      "expect": {
+        "cal_stage": "WAIT_EMPTY"
+      }
+    },
+    {
+      "type": "action",
+      "name": "CAL_NEXT",
+      "label": "Begin post-move empty scan",
+      "expect": {
+        "cal_stage": "EMPTY_SCAN"
+      }
+    },
+    {
+      "type": "advance",
+      "seconds": 1.0,
+      "label": "Complete post-move empty scan",
+      "expect": {
+        "cal_stage": "WAIT_ROD"
+      }
+    },
+    {
+      "type": "set",
+      "name": "cal_rod_placed",
+      "value": true,
+      "label": "Place rod after relocation",
+      "expect": {
+        "cal_stage": "ROD_SCAN"
+      }
+    },
+    {
+      "type": "advance",
+      "seconds": 1.0,
+      "label": "Complete post-move rod scan",
+      "expect": {
+        "cal_stage": "SUCCESS"
+      }
+    },
+    {
+      "type": "action",
+      "name": "CAL_NEXT",
+      "label": "Request post-move rod removal",
+      "expect": {
+        "cal_stage": "REMOVE_ROD"
+      }
+    },
+    {
+      "type": "set",
+      "name": "cal_rod_placed",
+      "value": false,
+      "label": "Remove rod after relocation",
+      "expect": {}
+    },
+    {
+      "type": "action",
+      "name": "CAL_NEXT",
+      "label": "Complete post-move calibration",
+      "expect": {
+        "cal_stage": "IDLE",
+        "cal_valid": true
+      }
+    },
+    {
+      "type": "action",
+      "name": "STEP_ON",
+      "label": "Resume simulated guided weighing",
+      "expect": {
+        "state": "UNSTABLE",
+        "loaded": true
+      }
+    },
+    {
+      "type": "advance",
+      "seconds": 4.0,
+      "label": "Reach simulated stable weight",
+      "expect": {
+        "state": "WEIGHED"
+      }
+    },
+    {
+      "type": "action",
+      "name": "HEIGHT",
+      "label": "Start post-move height",
+      "expect": {
+        "height_measuring": true,
+        "view_mode": "MEASURING"
+      }
+    },
+    {
+      "type": "advance",
+      "seconds": 2.0,
+      "label": "Complete post-move height",
+      "expect": {
+        "height_measuring": false,
+        "view_mode": "HEIGHT"
+      }
+    },
+    {
+      "type": "action",
+      "name": "HEIGHT_ACCEPT",
+      "label": "Accept post-move height",
+      "expect": {
+        "state": "RESULT",
+        "measured_height_cm": 170.0
+      }
+    },
+    {
+      "type": "action",
+      "name": "STEP_OFF",
+      "label": "End resumed measurement",
+      "expect": {
+        "state": "HELD",
+        "loaded": false
+      }
+    }
+  ]
+}

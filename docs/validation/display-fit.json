@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "checks": {
+    "neutral pose no surface crossing detected": true,
+    "outside-sample pose detects display/rail crossing": true,
+    "operator works in background": true,
+    "subsequent check is recomputed": true,
+    "missing component returns unavailable": true,
+    "operator class registered on rerun": true
+  },
+  "crossing_pose": {
+    "status": "CROSSINGS",
+    "missing": [],
+    "crossings": [
+      {
+        "moving": "ID display rear shell",
+        "fixed": "455 \u2022 continuous handrail",
+        "overlapping_polygon_pairs": 74
+      },
+      {
+        "moving": "ID display glass bezel",
+        "fixed": "455 \u2022 continuous handrail",
+        "overlapping_polygon_pairs": 22
+      },
+      {
+        "moving": "Display \u2022 transparent cover",
+        "fixed": "455 \u2022 continuous handrail",
+        "overlapping_polygon_pairs": 46
+      },
+      {
+        "moving": "Display \u2022 rear cover",
+        "fixed": "455 \u2022 continuous handrail",
+        "overlapping_polygon_pairs": 44
+      }
+    ]
+  },
+  "scope": "Selected evaluated modeled surface crossings at individual poses; no inside-solid test, continuous sweep, physical motion or clearance validation."
+}
