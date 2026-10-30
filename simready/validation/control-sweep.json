@@ -1,0 +1,394 @@
+{
+  "display_samples": [
+    {
+      "yaw_rad": -0.6,
+      "tilt_rad": -0.4,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": -0.6,
+      "tilt_rad": -0.2666666666666667,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": -0.6,
+      "tilt_rad": -0.13333333333333336,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": -0.6,
+      "tilt_rad": 0.0,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": -0.6,
+      "tilt_rad": 0.1333333333333333,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": -0.6,
+      "tilt_rad": 0.2666666666666666,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": -0.6,
+      "tilt_rad": 0.4,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": -0.39999999999999997,
+      "tilt_rad": -0.4,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": -0.39999999999999997,
+      "tilt_rad": -0.2666666666666667,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": -0.39999999999999997,
+      "tilt_rad": -0.13333333333333336,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": -0.39999999999999997,
+      "tilt_rad": 0.0,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": -0.39999999999999997,
+      "tilt_rad": 0.1333333333333333,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": -0.39999999999999997,
+      "tilt_rad": 0.2666666666666666,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": -0.39999999999999997,
+      "tilt_rad": 0.4,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": -0.19999999999999996,
+      "tilt_rad": -0.4,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": -0.19999999999999996,
+      "tilt_rad": -0.2666666666666667,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": -0.19999999999999996,
+      "tilt_rad": -0.13333333333333336,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": -0.19999999999999996,
+      "tilt_rad": 0.0,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": -0.19999999999999996,
+      "tilt_rad": 0.1333333333333333,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": -0.19999999999999996,
+      "tilt_rad": 0.2666666666666666,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": -0.19999999999999996,
+      "tilt_rad": 0.4,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 1.1102230246251565e-16,
+      "tilt_rad": -0.4,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 1.1102230246251565e-16,
+      "tilt_rad": -0.2666666666666667,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 1.1102230246251565e-16,
+      "tilt_rad": -0.13333333333333336,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 1.1102230246251565e-16,
+      "tilt_rad": 0.0,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 1.1102230246251565e-16,
+      "tilt_rad": 0.1333333333333333,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 1.1102230246251565e-16,
+      "tilt_rad": 0.2666666666666666,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 1.1102230246251565e-16,
+      "tilt_rad": 0.4,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 0.20000000000000007,
+      "tilt_rad": -0.4,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 0.20000000000000007,
+      "tilt_rad": -0.2666666666666667,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 0.20000000000000007,
+      "tilt_rad": -0.13333333333333336,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 0.20000000000000007,
+      "tilt_rad": 0.0,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 0.20000000000000007,
+      "tilt_rad": 0.1333333333333333,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 0.20000000000000007,
+      "tilt_rad": 0.2666666666666666,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 0.20000000000000007,
+      "tilt_rad": 0.4,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 0.4,
+      "tilt_rad": -0.4,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 0.4,
+      "tilt_rad": -0.2666666666666667,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 0.4,
+      "tilt_rad": -0.13333333333333336,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 0.4,
+      "tilt_rad": 0.0,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 0.4,
+      "tilt_rad": 0.1333333333333333,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 0.4,
+      "tilt_rad": 0.2666666666666666,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 0.4,
+      "tilt_rad": 0.4,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 0.6000000000000002,
+      "tilt_rad": -0.4,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 0.6000000000000002,
+      "tilt_rad": -0.2666666666666667,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 0.6000000000000002,
+      "tilt_rad": -0.13333333333333336,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 0.6000000000000002,
+      "tilt_rad": 0.0,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 0.6000000000000002,
+      "tilt_rad": 0.1333333333333333,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 0.6000000000000002,
+      "tilt_rad": 0.2666666666666666,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    },
+    {
+      "yaw_rad": 0.6000000000000002,
+      "tilt_rad": 0.4,
+      "status": "NO_CROSSINGS_DETECTED",
+      "crossings": []
+    }
+  ],
+  "crossing_count": 0,
+  "wheel_samples": [
+    {
+      "side": "L",
+      "samples": [
+        {
+          "angle_rad": 0,
+          "pivot_m": [
+            -0.23000000417232513,
+            0.2669999897480011,
+            0.0430000014603138
+          ],
+          "radius_min_m": 0.04149677692000629,
+          "radius_max_m": 0.04300001263618469
+        },
+        {
+          "angle_rad": 1.5707963267948966,
+          "pivot_m": [
+            -0.23000000417232513,
+            0.2669999897480011,
+            0.0430000014603138
+          ],
+          "radius_min_m": 0.041496769606350875,
+          "radius_max_m": 0.04300001706419942
+        },
+        {
+          "angle_rad": 3.141592653589793,
+          "pivot_m": [
+            -0.23000000417232513,
+            0.2669999897480011,
+            0.0430000014603138
+          ],
+          "radius_min_m": 0.041496772609806935,
+          "radius_max_m": 0.04300001548404589
+        },
+        {
+          "angle_rad": 4.71238898038469,
+          "pivot_m": [
+            -0.23000000417232513,
+            0.2669999897480011,
+            0.0430000014603138
+          ],
+          "radius_min_m": 0.041496749155555415,
+          "radius_max_m": 0.043000042438507725
+        }
+      ],
+      "max_radius_spread_m": 2.9802323033012446e-08
+    },
+    {
+      "side": "R",
+      "samples": [
+        {
+          "angle_rad": 0,
+          "pivot_m": [
+            0.23000000417232513,
+            0.2669999897480011,
+            0.0430000014603138
+          ],
+          "radius_min_m": 0.04149677692000629,
+          "radius_max_m": 0.04300001263618469
+        },
+        {
+          "angle_rad": 1.5707963267948966,
+          "pivot_m": [
+            0.23000000417232513,
+            0.2669999897480011,
+            0.0430000014603138
+          ],
+          "radius_min_m": 0.041496769606350875,
+          "radius_max_m": 0.04300001706419942
+        },
+        {
+          "angle_rad": 3.141592653589793,
+          "pivot_m": [
+            0.23000000417232513,
+            0.2669999897480011,
+            0.0430000014603138
+          ],
+          "radius_min_m": 0.041496772609806935,
+          "radius_max_m": 0.04300001548404589
+        },
+        {
+          "angle_rad": 4.71238898038469,
+          "pivot_m": [
+            0.23000000417232513,
+            0.2669999897480011,
+            0.0430000014603138
+          ],
+          "radius_min_m": 0.041496749155555415,
+          "radius_max_m": 0.043000042438507725
+        }
+      ],
+      "max_radius_spread_m": 2.9802323033012446e-08
+    }
+  ],
+  "scope": "49 sampled Blender source-control poses and four angles per wheel; selected surface intersections only, not full containment, cable motion, physical stops, continuous sweep or USD runtime behavior."
+}

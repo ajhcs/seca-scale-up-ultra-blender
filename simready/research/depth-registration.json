@@ -1,0 +1,36 @@
+{
+  "source_bounds_y_m": [
+    -0.29135000705718994,
+    0.29135000705718994
+  ],
+  "source_depth_m": 0.5827000141143799,
+  "published_depth_m": 0.65,
+  "difference_m": 0.06729998588562014,
+  "platform_chassis_dimensions_m": [
+    0.6000000238418579,
+    0.46700000762939453,
+    0.053999999538064
+  ],
+  "modeled_glass_top_z_m": 0.07300000637769699,
+  "published_platform_dimensions_m": [
+    0.6,
+    0.467,
+    0.07
+  ],
+  "registered_intervals_m": {
+    "front_aligned": [
+      -0.29135000705718994,
+      0.3586499929428101
+    ],
+    "center_aligned": [
+      -0.325,
+      0.325
+    ],
+    "rear_aligned": [
+      -0.3586499929428101,
+      0.29135000705718994
+    ]
+  },
+  "scope": "These three intervals are hypothetical registrations of the manufacturer nominal 650 mm dimension, not measured end planes, proposed geometry corrections, service clearances or physical validation.",
+  "manufacturer_source": "https://hs.seca.com/hubfs/Lyndsey%20Folders/Product%20Sheets/seca_Scale-up_Line_654_455_257_257sh_product_sheet_US_en_24.pdf?hsLang=en"
+}

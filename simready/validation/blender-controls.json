@@ -1,0 +1,36 @@
+{
+  "source_sha256_before": "57e64f249073c472abacbc942eb990a76657a26333f56e80ec922815e7c5525d",
+  "source_sha256_after": "57e64f249073c472abacbc942eb990a76657a26333f56e80ec922815e7c5525d",
+  "prior_sha256_before": "c258d11395cb2e42965d8b9e58f96d46d8ab681a55b537bdfc492b712e15dc9a",
+  "prior_sha256_after": "c258d11395cb2e42965d8b9e58f96d46d8ab681a55b537bdfc492b712e15dc9a",
+  "output_sha256": "9bf953ea7a2e9be303e8a4295b2c6a2b59d638372ddb407050e058c3511adf2a",
+  "controls": [
+    {
+      "name": "CONTROL \u2022 wheel L",
+      "axis": "X",
+      "study_limits_rad": null
+    },
+    {
+      "name": "CONTROL \u2022 wheel R",
+      "axis": "X",
+      "study_limits_rad": null
+    },
+    {
+      "name": "CONTROL \u2022 display swivel",
+      "axis": "Z",
+      "study_limits_rad": [
+        -0.6,
+        0.6
+      ]
+    },
+    {
+      "name": "CONTROL \u2022 display tilt and rotation",
+      "axis": "X",
+      "study_limits_rad": [
+        -0.4,
+        0.4
+      ]
+    }
+  ],
+  "scope": "Editable source-derived controls, with provisional rotation limits and no script autorun; USD physics is authored separately."
+}

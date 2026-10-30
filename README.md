@@ -1,12 +1,14 @@
-# seca Scale-up Ultra — an interactive Blender study
+# seca Scale-up Ultra — Blender and OpenUSD simulation studies
 
-A measuring station, built to explore. This editable Blender reconstruction brings together the glass platform, handrail, ultrasonic column and ID display of the seca Scale-up Ultra, then adds a set of interactive studies that let you move through the experience of using it.
+A measuring station, built to explore. This editable Blender reconstruction brings together the glass platform, handrail, ultrasonic column and ID display of the seca Scale-up Ultra, then adds a set of interactive studies that let you move through the experience of using it. A separate SimReady-style OpenUSD 3D model adds provisional wheel and display joints for simulation studies.
 
 Change a weight, place a virtual subject beneath the measuring head, try the touchscreen, or tilt and move the station through a scene. The project combines detailed product modeling with approachable simulations of the systems around it—making it as interesting to investigate as it is to render.
 
+[Start in Blender](#start-exploring) · [Explore the OpenUSD study](#openusd-and-simready-style-study) · [Read the assumptions](simready/ASSUMPTIONS.md)
+
 ![Full render of the Blender measuring station](images/01-overview.png)
 
-*Every image in this repository is a render of the Blender reconstruction.*
+*Product images are renders of the reconstruction; diagrams and motion previews are labeled as studies.*
 
 ## Start exploring
 
@@ -17,6 +19,28 @@ Change a weight, place a virtual subject beneath the measuring head, try the tou
 5. To interact with the display in the viewport, choose **Enable 3D screen touch** in the sidebar, then press and release a control on the screen; dragging away cancels the press, and **Esc** exits touch mode.
 
 The project opens with editable geometry and materials; running the script brings the interactive study controls to life. Try switching the **Height source** to **Single-ray phantom**, **Six-ray phantom study**, or **Adjustable echo fan study** to see different ways of exploring the height measurement.
+
+## OpenUSD and SimReady-style study
+
+The [articulated OpenUSD model](simready/asset/seca_scale_up_ultra_articulated/usd/seca_scale_up_ultra_articulated.usda) separates the station into five modeled rigid links with four revolute joints and 42 collision proxies. It is a starting point for robotics and physics-simulation exploration, with an [editable Blender copy](simready/source/seca-articulation-editable.blend) alongside it.
+
+To open it, clone or download the repository, keep the adjacent `layers` folder with the USD, and open the root `.usda` in an OpenUSD application. Blender can import the visual scene through **File → Import → Universal Scene Description**; physics support depends on the application. The original [interactive Blender model](model/seca-scale-up-ultra.blend) remains available separately. See the [USD study guide](simready/README.md) for controls, dependencies and tests.
+
+| USD visual geometry | USD collision proxies |
+| :---: | :---: |
+| [![Rendered OpenUSD visual geometry of the seca measuring station](simready/previews/articulated-overview.png)](simready/previews/articulated-overview.png) | [![Rendered guide-purpose collision proxies for the base, rail, wheels and display](simready/previews/usd-collision-proxies.png)](simready/previews/usd-collision-proxies.png) |
+
+The proxy view uses blue for the base, orange for the wheels and teal for the display links. It shows the simplified collision shapes, not a measurement of the real device.
+
+![Animation of the modeled display swiveling and tilting](simready/previews/display-articulation.gif)
+
+*The preview manually poses the imported USD visuals; it is not a physics simulation or a recording of a physical unit.*
+
+![Five rigid-body links: a base connected to two wheels and a display swivel, with a display tilt attached to the swivel](simready/previews/usd-joint-graph.png)
+
+[Open the link graph at full size](simready/previews/usd-joint-graph.png).
+
+The manufacturer lists a 29 kg total mass; the per-link masses, pivots, friction and display limits are estimates. The wheels use X-axis rotation; the display study limits are ±0.6 radians about Z and ±0.4 radians about X. The unpowered display reached its modeled tilt stop in a local gravity test, and the optional centering-drive layer has not been validated in PhysX. The main asset passes the **Robotics-Prop 4.0.0 static validation profile**; Isaac Sim, RTX, physical-device behavior and the NVIDIA runtime benchmark remain unverified. Read the [assumptions](simready/ASSUMPTIONS.md), [validation evidence](simready/README.md#evidence) and [remaining backlog](simready/BACKLOG-STATUS.md) before using the model for a simulation study.
 
 ## A closer look at the experience
 
@@ -63,7 +87,7 @@ These are exploratory studies with adjustable assumptions. Re-run a check after 
 
 The reconstruction was built around the 654 platform, 455 handrail and standard 257 ultrasonic column using published specifications, product images and assembly and operation illustrations. Separate meshes, curves, controls and material nodes keep the model open to inspection and further work. Approximate camera comparisons helped shape the visible parts, while the interface and study scripts connect the modeled components to fictional inputs and results.
 
-This is an independent, reference-informed interpretation rather than manufacturer CAD or firmware. The visual construction, movements, materials and simulated measurements have not been calibrated against a physical unit. For example, the selected v77 reconstruction measured **801 × 582.7 × 2387 mm** in its saved pose; seca publishes **801 × 650 × 2387 mm** for the configured device, and the 67.3 mm depth difference remains unresolved. See [modeling and fidelity](docs/MODELING-AND-FIDELITY.md) and the [source index](docs/SOURCES.md) for the details.
+This is an independent, reference-informed interpretation rather than manufacturer CAD or firmware. The visual construction, movements, materials and simulated measurements have not been calibrated against a physical unit. For example, the selected v77 reconstruction measured **801 × 582.7 × 2387 mm** in its saved pose; seca publishes **801 × 650 × 2387 mm** for the configured device, and the 67.3 mm depth difference remains unresolved. See [modeling and fidelity](docs/MODELING-AND-FIDELITY.md), the [depth registration study](simready/research/depth-registration.png), and the [source index](docs/SOURCES.md) for the details.
 
 The project is for visualization and exploration, not clinical use. seca and its product names are trademarks of their respective owners; this project is not affiliated with or endorsed by seca. Manufacturer images, manuals and Revit files are linked as references rather than redistributed here.
 

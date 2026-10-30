@@ -1,0 +1,191 @@
+{
+  "cross_product_thresholds_m2": {
+    "0": 220,
+    "1e-24": 220,
+    "1e-18": 220,
+    "1e-16": 220,
+    "1e-14": 2987,
+    "2e-14": 3004,
+    "1e-12": 3645
+  },
+  "interpolations": {
+    "[('normals', 'faceVarying')]": 3,
+    "[('normals', 'faceVarying'), ('primvars:st', 'faceVarying')]": 3
+  },
+  "examples": [
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Drip_guard___clear_roof/EXPORT_MESH_Drip_guard___clear_roof",
+      "attributes": [
+        [
+          "doubleSided",
+          null,
+          null
+        ],
+        [
+          "extent",
+          null,
+          2
+        ],
+        [
+          "faceVertexCounts",
+          null,
+          188
+        ],
+        [
+          "faceVertexIndices",
+          null,
+          564
+        ],
+        [
+          "normals",
+          "faceVarying",
+          564
+        ],
+        [
+          "points",
+          null,
+          96
+        ],
+        [
+          "subdivisionScheme",
+          null,
+          4
+        ]
+      ],
+      "children": []
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Drip_guard___side_L/EXPORT_MESH_Drip_guard___side_L",
+      "attributes": [
+        [
+          "doubleSided",
+          null,
+          null
+        ],
+        [
+          "extent",
+          null,
+          2
+        ],
+        [
+          "faceVertexCounts",
+          null,
+          188
+        ],
+        [
+          "faceVertexIndices",
+          null,
+          564
+        ],
+        [
+          "normals",
+          "faceVarying",
+          564
+        ],
+        [
+          "points",
+          null,
+          96
+        ],
+        [
+          "subdivisionScheme",
+          null,
+          4
+        ]
+      ],
+      "children": []
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Drip_guard___side_R/EXPORT_MESH_Drip_guard___side_R",
+      "attributes": [
+        [
+          "doubleSided",
+          null,
+          null
+        ],
+        [
+          "extent",
+          null,
+          2
+        ],
+        [
+          "faceVertexCounts",
+          null,
+          188
+        ],
+        [
+          "faceVertexIndices",
+          null,
+          564
+        ],
+        [
+          "normals",
+          "faceVarying",
+          564
+        ],
+        [
+          "points",
+          null,
+          96
+        ],
+        [
+          "subdivisionScheme",
+          null,
+          4
+        ]
+      ],
+      "children": []
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Ultrasonic_power_indicator/EXPORT_MESH_Ultrasonic_power_indicator",
+      "attributes": [
+        [
+          "doubleSided",
+          null,
+          null
+        ],
+        [
+          "extent",
+          null,
+          2
+        ],
+        [
+          "faceVertexCounts",
+          null,
+          764
+        ],
+        [
+          "faceVertexIndices",
+          null,
+          2292
+        ],
+        [
+          "normals",
+          "faceVarying",
+          2292
+        ],
+        [
+          "points",
+          null,
+          384
+        ],
+        [
+          "primvars:st",
+          "faceVarying",
+          484
+        ],
+        [
+          "primvars:st:indices",
+          null,
+          2292
+        ],
+        [
+          "subdivisionScheme",
+          null,
+          4
+        ]
+      ],
+      "children": []
+    }
+  ]
+}
