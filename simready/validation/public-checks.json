@@ -1,0 +1,27 @@
+{
+  "checks": {
+    "simready_static_profile_pass": true,
+    "usdchecker_base_and_overlay_pass": true,
+    "articulation_structure_pass": true,
+    "blender_source_reopen_pass": true,
+    "reconstructed_bullet_joint_probes_pass": true,
+    "sampled_blender_crossings_none": true,
+    "sampled_proxy_overlaps_none": true,
+    "synthetic_scenarios_pass": true,
+    "ideal_drive_calculation_pass": true,
+    "rebuild_layer_text_equivalent": true,
+    "markdown_local_links_pass": true,
+    "gif_decode_and_loop_checks_pass": true,
+    "original_model_matches_recorded_sha256": true
+  },
+  "source_revision": "ab13079013d5a4869acc56ac22884aa226b19502",
+  "original_model_sha256": "57e64f249073c472abacbc942eb990a76657a26333f56e80ec922815e7c5525d",
+  "usd_root_sha256": "7963f11a7d1b6137af307657f0a84d444c87e9d0867d05e568d5acc67652bb41",
+  "gif_sha256": "31f400cc78fac2387e96e698201f8d523d1149a9bfda212cd83bc21feea367b8",
+  "simready_static_optional_features": {
+    "FET_004_STANDARD": true,
+    "FET_004_PHYSX": true,
+    "FET_100_ISAAC": false
+  },
+  "scope": "Checks of an isolated public-candidate copy, locally rendered README and actual browser GIF playback. Bullet omits the display mounting-arm collider and recalculates inertia. Not a PhysX or physical-device validation."
+}

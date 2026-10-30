@@ -1,0 +1,153 @@
+{
+  "checks": {
+    "tare_hold_units": true,
+    "independent_instances": true,
+    "reject_non_synthetic_fixture": true,
+    "failure_snapshot": true,
+    "manual_retry_preserves_snapshot": true,
+    "lost_ack_idempotent_retry": true,
+    "timing_partition_invariant": true,
+    "reset_does_not_erase_pending_or_history": true
+  },
+  "scenario_a": {
+    "instance_id": "A",
+    "display": {
+      "value": 0.0,
+      "units": "kg",
+      "held": false,
+      "synthetic_id": ""
+    },
+    "transfer_status": "ACKNOWLEDGED",
+    "outbox": [
+      {
+        "payload": {
+          "id": "A-000001",
+          "synthetic_id": "SYNTH-100",
+          "gross_kg": 75.0,
+          "tare_kg": 10.0,
+          "net_kg": 65.0
+        },
+        "status": "ACKNOWLEDGED",
+        "attempts": 1,
+        "mode": "RECEIVER",
+        "failures_remaining": 0,
+        "max_attempts": 3,
+        "latency": 1.0,
+        "retry_delay": 0.4,
+        "elapsed": 0.0
+      }
+    ],
+    "receiver": {
+      "A-000001": {
+        "id": "A-000001",
+        "synthetic_id": "SYNTH-100",
+        "gross_kg": 75.0,
+        "tare_kg": 10.0,
+        "net_kg": 65.0
+      }
+    },
+    "attempt_events": [
+      {
+        "id": "A-000001",
+        "event": "RECEIVER_UNAVAILABLE"
+      },
+      {
+        "id": "A-000001",
+        "event": "ACKNOWLEDGED"
+      }
+    ]
+  },
+  "scenario_ack_lost": {
+    "instance_id": "C",
+    "display": {
+      "value": 70.0,
+      "units": "kg",
+      "held": false,
+      "synthetic_id": ""
+    },
+    "transfer_status": "ACKNOWLEDGED",
+    "outbox": [
+      {
+        "payload": {
+          "id": "C-000001",
+          "synthetic_id": "",
+          "gross_kg": 70.0,
+          "tare_kg": 0.0,
+          "net_kg": 70.0
+        },
+        "status": "ACKNOWLEDGED",
+        "attempts": 2,
+        "mode": "ACK_LOST",
+        "failures_remaining": 0,
+        "max_attempts": 2,
+        "latency": 1.0,
+        "retry_delay": 0.4,
+        "elapsed": 0.0
+      }
+    ],
+    "receiver": {
+      "C-000001": {
+        "id": "C-000001",
+        "synthetic_id": "",
+        "gross_kg": 70.0,
+        "tare_kg": 0.0,
+        "net_kg": 70.0
+      }
+    },
+    "attempt_events": [
+      {
+        "id": "C-000001",
+        "event": "ACK_LOST"
+      },
+      {
+        "id": "C-000001",
+        "event": "ACKNOWLEDGED"
+      }
+    ]
+  },
+  "scenario_reset": {
+    "instance_id": "F",
+    "display": {
+      "value": 0.0,
+      "units": "kg",
+      "held": false,
+      "synthetic_id": ""
+    },
+    "transfer_status": "ACKNOWLEDGED",
+    "outbox": [
+      {
+        "payload": {
+          "id": "F-000001",
+          "synthetic_id": "",
+          "gross_kg": 5.0,
+          "tare_kg": 0.0,
+          "net_kg": 5.0
+        },
+        "status": "ACKNOWLEDGED",
+        "attempts": 1,
+        "mode": "NONE",
+        "failures_remaining": 0,
+        "max_attempts": 3,
+        "latency": 1.0,
+        "retry_delay": 0.4,
+        "elapsed": 0.0
+      }
+    ],
+    "receiver": {
+      "F-000001": {
+        "id": "F-000001",
+        "synthetic_id": "",
+        "gross_kg": 5.0,
+        "tare_kg": 0.0,
+        "net_kg": 5.0
+      }
+    },
+    "attempt_events": [
+      {
+        "id": "F-000001",
+        "event": "ACKNOWLEDGED"
+      }
+    ]
+  },
+  "scope": "Independent fictional subset with explicit synthetic inputs, deterministic local mock receiver and no Blender, USD screen adapter, sensor, device firmware, patient data or network. No claim of parity with the original Blender simulator."
+}

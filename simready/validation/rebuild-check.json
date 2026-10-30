@@ -1,0 +1,35 @@
+{
+  "files": {
+    "layers/Base.usdc": {
+      "file_bytes_identical": false,
+      "layer_text_identical": true
+    },
+    "layers/Display_Tilt.usdc": {
+      "file_bytes_identical": false,
+      "layer_text_identical": true
+    },
+    "layers/Display_Yaw.usdc": {
+      "file_bytes_identical": false,
+      "layer_text_identical": true
+    },
+    "layers/Wheel_L.usdc": {
+      "file_bytes_identical": false,
+      "layer_text_identical": true
+    },
+    "layers/Wheel_R.usdc": {
+      "file_bytes_identical": false,
+      "layer_text_identical": true
+    },
+    "layers/illustrative_driven.usda": {
+      "file_bytes_identical": true,
+      "layer_text_identical": true
+    },
+    "seca_scale_up_ultra_articulated.usda": {
+      "file_bytes_identical": true,
+      "layer_text_identical": true
+    }
+  },
+  "all_layer_texts_identical": true,
+  "all_rebuilt_structure_checks_pass": true,
+  "scope": "OpenUSD layer text equality, not identical binary crate encoding, plus structural checks; excludes the thumbnail, runtime dynamics and real-world accuracy."
+}

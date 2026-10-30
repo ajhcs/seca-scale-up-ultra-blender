@@ -1,0 +1,2738 @@
+{
+  "summary": {
+    "meshes": 272,
+    "points": 81964,
+    "faces": 145872,
+    "meshes_with_boundary_edges": 22,
+    "meshes_with_gt2_edges": 0,
+    "meshes_with_winding_issues": 0,
+    "meshes_with_near_zero_cross_product_faces": 123,
+    "boundary_edges": 17060,
+    "nonmanifold_edges_gt2": 0,
+    "near_zero_cross_product_faces": 3004,
+    "exact_zero_area_faces": 220
+  },
+  "meshes": [
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___aperture_wall_1_L/EXPORT_MESH_257___aperture_wall_1_L",
+      "points": 192,
+      "faces": 256,
+      "boundary_edges": 128,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___aperture_wall_1_R/EXPORT_MESH_257___aperture_wall_1_R",
+      "points": 192,
+      "faces": 256,
+      "boundary_edges": 128,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___aperture_wall_2_L/EXPORT_MESH_257___aperture_wall_2_L",
+      "points": 192,
+      "faces": 256,
+      "boundary_edges": 128,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___aperture_wall_2_R/EXPORT_MESH_257___aperture_wall_2_R",
+      "points": 192,
+      "faces": 256,
+      "boundary_edges": 128,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___aperture_wall_3_L/EXPORT_MESH_257___aperture_wall_3_L",
+      "points": 192,
+      "faces": 256,
+      "boundary_edges": 128,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___aperture_wall_3_R/EXPORT_MESH_257___aperture_wall_3_R",
+      "points": 192,
+      "faces": 256,
+      "boundary_edges": 128,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___column_joint_1/EXPORT_MESH_257___column_joint_1",
+      "points": 48,
+      "faces": 92,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___column_joint_2/EXPORT_MESH_257___column_joint_2",
+      "points": 48,
+      "faces": 92,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___dark_rear_channel/EXPORT_MESH_257___dark_rear_channel",
+      "points": 24,
+      "faces": 36,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___dark_tapered_mast_transition/EXPORT_MESH_257___dark_tapered_mast_transition",
+      "points": 16,
+      "faces": 32,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___front_guide_1_1/EXPORT_MESH_257___front_guide_1_1",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___front_guide_1__1/EXPORT_MESH_257___front_guide_1__1",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___front_guide_2_1/EXPORT_MESH_257___front_guide_2_1",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___front_guide_2__1/EXPORT_MESH_257___front_guide_2__1",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___front_guide_3_1/EXPORT_MESH_257___front_guide_3_1",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___front_guide_3__1/EXPORT_MESH_257___front_guide_3__1",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___head_lower_shell/EXPORT_MESH_257___head_lower_shell",
+      "points": 1758,
+      "faces": 3536,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___head_upper_shell/EXPORT_MESH_257___head_upper_shell",
+      "points": 944,
+      "faces": 1888,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___removable_channel_cover_1__estimated_/EXPORT_MESH_257___removable_channel_cover_1__estimated_",
+      "points": 56,
+      "faces": 108,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___removable_channel_cover_2__estimated_/EXPORT_MESH_257___removable_channel_cover_2__estimated_",
+      "points": 56,
+      "faces": 108,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___removable_channel_cover_3__estimated_/EXPORT_MESH_257___removable_channel_cover_3__estimated_",
+      "points": 56,
+      "faces": 108,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___scalloped_sensor_bezel/EXPORT_MESH_257___scalloped_sensor_bezel",
+      "points": 1812,
+      "faces": 3644,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___sensor_opening_appearance_1_L/EXPORT_MESH_257___sensor_opening_appearance_1_L",
+      "points": 128,
+      "faces": 252,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___sensor_opening_appearance_1_R/EXPORT_MESH_257___sensor_opening_appearance_1_R",
+      "points": 128,
+      "faces": 252,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___sensor_opening_appearance_2_L/EXPORT_MESH_257___sensor_opening_appearance_2_L",
+      "points": 128,
+      "faces": 252,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___sensor_opening_appearance_2_R/EXPORT_MESH_257___sensor_opening_appearance_2_R",
+      "points": 128,
+      "faces": 252,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___sensor_opening_appearance_3_L/EXPORT_MESH_257___sensor_opening_appearance_3_L",
+      "points": 128,
+      "faces": 252,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___sensor_opening_appearance_3_R/EXPORT_MESH_257___sensor_opening_appearance_3_R",
+      "points": 128,
+      "faces": 252,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___tapered_foot_cover/EXPORT_MESH_257___tapered_foot_cover",
+      "points": 160,
+      "faces": 316,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___vertical_column_extrusion/EXPORT_MESH_257___vertical_column_extrusion",
+      "points": 88,
+      "faces": 172,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___vertical_column_extrusion_section_2/EXPORT_MESH_257___vertical_column_extrusion_section_2",
+      "points": 80,
+      "faces": 156,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_257___vertical_column_extrusion_section_3/EXPORT_MESH_257___vertical_column_extrusion_section_3",
+      "points": 88,
+      "faces": 172,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_455___base_flange_1/EXPORT_MESH_455___base_flange_1",
+      "points": 722,
+      "faces": 1440,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_455___base_flange__1/EXPORT_MESH_455___base_flange__1",
+      "points": 722,
+      "faces": 1440,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_455___continuous_handrail/EXPORT_MESH_455___continuous_handrail",
+      "points": 5168,
+      "faces": 10268,
+      "boundary_edges": 64,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_455___lower_support_arm_1/EXPORT_MESH_455___lower_support_arm_1",
+      "points": 152,
+      "faces": 300,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_455___lower_support_arm__1/EXPORT_MESH_455___lower_support_arm__1",
+      "points": 152,
+      "faces": 300,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_455___rear_bridge_mount/EXPORT_MESH_455___rear_bridge_mount",
+      "points": 176,
+      "faces": 348,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_455___underside_transverse_support/EXPORT_MESH_455___underside_transverse_support",
+      "points": 152,
+      "faces": 300,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_455___upright_seam_1__estimated_/EXPORT_MESH_455___upright_seam_1__estimated_",
+      "points": 384,
+      "faces": 768,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_455___upright_seam__1__estimated_/EXPORT_MESH_455___upright_seam__1__estimated_",
+      "points": 384,
+      "faces": 768,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_654___Bearclaw_glass_top/EXPORT_MESH_654___Bearclaw_glass_top",
+      "points": 208,
+      "faces": 412,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_654___fascia_rear_seams/EXPORT_MESH_654___fascia_rear_seams",
+      "points": 60,
+      "faces": 80,
+      "boundary_edges": 40,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_654___lower_platform_chassis/EXPORT_MESH_654___lower_platform_chassis",
+      "points": 306,
+      "faces": 608,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_654___rear_connector_enclosure/EXPORT_MESH_654___rear_connector_enclosure",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_654___rear_deck_center/EXPORT_MESH_654___rear_deck_center",
+      "points": 144,
+      "faces": 284,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_654___rear_deck_wing_L/EXPORT_MESH_654___rear_deck_wing_L",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_654___rear_deck_wing_R/EXPORT_MESH_654___rear_deck_wing_R",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_654___visual_underside_backing__estimated_/EXPORT_MESH_654___visual_underside_backing__estimated_",
+      "points": 104,
+      "faces": 204,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_654___wrapped_side_fascia/EXPORT_MESH_654___wrapped_side_fascia",
+      "points": 368,
+      "faces": 732,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Adjustable_leveling_foot/EXPORT_MESH_Adjustable_leveling_foot",
+      "points": 256,
+      "faces": 508,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Adjustable_leveling_foot_001/EXPORT_MESH_Adjustable_leveling_foot_001",
+      "points": 256,
+      "faces": 508,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Adjustable_leveling_foot_002/EXPORT_MESH_Adjustable_leveling_foot_002",
+      "points": 256,
+      "faces": 508,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Adjustable_leveling_foot_003/EXPORT_MESH_Adjustable_leveling_foot_003",
+      "points": 256,
+      "faces": 508,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Column_cover_fixing_slot/EXPORT_MESH_Column_cover_fixing_slot",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Column_cover_fixing_slot_001/EXPORT_MESH_Column_cover_fixing_slot_001",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Column_cover_screw/EXPORT_MESH_Column_cover_screw",
+      "points": 384,
+      "faces": 764,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Column_cover_screw_001/EXPORT_MESH_Column_cover_screw_001",
+      "points": 384,
+      "faces": 764,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Display___articulated_cable_lead/EXPORT_MESH_Display___articulated_cable_lead",
+      "points": 1476,
+      "faces": 2900,
+      "boundary_edges": 48,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Display_arm___cable_entry/EXPORT_MESH_Display_arm___cable_entry",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Display_arm_from_mast/EXPORT_MESH_Display_arm_from_mast",
+      "points": 152,
+      "faces": 300,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Display_interface_dark_opening/EXPORT_MESH_Display_interface_dark_opening",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Display_interface_rim/EXPORT_MESH_Display_interface_rim",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Drip_guard___clear_roof/EXPORT_MESH_Drip_guard___clear_roof",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 4,
+      "exact_zero_area_faces": 4
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Drip_guard___side_L/EXPORT_MESH_Drip_guard___side_L",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 28,
+      "exact_zero_area_faces": 28
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Drip_guard___side_R/EXPORT_MESH_Drip_guard___side_R",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 28,
+      "exact_zero_area_faces": 28
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Foot_lock_collar/EXPORT_MESH_Foot_lock_collar",
+      "points": 768,
+      "faces": 1536,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Foot_lock_collar_001/EXPORT_MESH_Foot_lock_collar_001",
+      "points": 768,
+      "faces": 1536,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Foot_lock_collar_002/EXPORT_MESH_Foot_lock_collar_002",
+      "points": 768,
+      "faces": 1536,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Foot_lock_collar_003/EXPORT_MESH_Foot_lock_collar_003",
+      "points": 768,
+      "faces": 1536,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_01_row_01/EXPORT_MESH_Glass_stripe___band_01_row_01",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_01_row_02/EXPORT_MESH_Glass_stripe___band_01_row_02",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_01_row_03/EXPORT_MESH_Glass_stripe___band_01_row_03",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_01_row_04/EXPORT_MESH_Glass_stripe___band_01_row_04",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_01_row_05/EXPORT_MESH_Glass_stripe___band_01_row_05",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_01_row_06/EXPORT_MESH_Glass_stripe___band_01_row_06",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_01_row_07/EXPORT_MESH_Glass_stripe___band_01_row_07",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_01_row_08/EXPORT_MESH_Glass_stripe___band_01_row_08",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_01_row_09/EXPORT_MESH_Glass_stripe___band_01_row_09",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_01_row_10/EXPORT_MESH_Glass_stripe___band_01_row_10",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_01_row_11/EXPORT_MESH_Glass_stripe___band_01_row_11",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_01_row_12/EXPORT_MESH_Glass_stripe___band_01_row_12",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_01_row_13/EXPORT_MESH_Glass_stripe___band_01_row_13",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_01_row_14/EXPORT_MESH_Glass_stripe___band_01_row_14",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_01_row_15/EXPORT_MESH_Glass_stripe___band_01_row_15",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_01_row_16/EXPORT_MESH_Glass_stripe___band_01_row_16",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_01_row_17/EXPORT_MESH_Glass_stripe___band_01_row_17",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_01_row_18/EXPORT_MESH_Glass_stripe___band_01_row_18",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_01_row_19/EXPORT_MESH_Glass_stripe___band_01_row_19",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_01_row_20/EXPORT_MESH_Glass_stripe___band_01_row_20",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_01_row_21/EXPORT_MESH_Glass_stripe___band_01_row_21",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_01_row_22/EXPORT_MESH_Glass_stripe___band_01_row_22",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_01_row_23/EXPORT_MESH_Glass_stripe___band_01_row_23",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_02_row_01/EXPORT_MESH_Glass_stripe___band_02_row_01",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_02_row_02/EXPORT_MESH_Glass_stripe___band_02_row_02",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_02_row_03/EXPORT_MESH_Glass_stripe___band_02_row_03",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_02_row_04/EXPORT_MESH_Glass_stripe___band_02_row_04",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_02_row_05/EXPORT_MESH_Glass_stripe___band_02_row_05",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_02_row_06/EXPORT_MESH_Glass_stripe___band_02_row_06",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_02_row_07/EXPORT_MESH_Glass_stripe___band_02_row_07",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_02_row_08/EXPORT_MESH_Glass_stripe___band_02_row_08",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_02_row_09/EXPORT_MESH_Glass_stripe___band_02_row_09",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_02_row_10/EXPORT_MESH_Glass_stripe___band_02_row_10",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_02_row_11/EXPORT_MESH_Glass_stripe___band_02_row_11",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_02_row_12/EXPORT_MESH_Glass_stripe___band_02_row_12",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_02_row_13/EXPORT_MESH_Glass_stripe___band_02_row_13",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_02_row_14/EXPORT_MESH_Glass_stripe___band_02_row_14",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_02_row_15/EXPORT_MESH_Glass_stripe___band_02_row_15",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_02_row_16/EXPORT_MESH_Glass_stripe___band_02_row_16",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_02_row_17/EXPORT_MESH_Glass_stripe___band_02_row_17",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_02_row_18/EXPORT_MESH_Glass_stripe___band_02_row_18",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_02_row_19/EXPORT_MESH_Glass_stripe___band_02_row_19",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_02_row_20/EXPORT_MESH_Glass_stripe___band_02_row_20",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_02_row_21/EXPORT_MESH_Glass_stripe___band_02_row_21",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_02_row_22/EXPORT_MESH_Glass_stripe___band_02_row_22",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_02_row_23/EXPORT_MESH_Glass_stripe___band_02_row_23",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_03_row_01/EXPORT_MESH_Glass_stripe___band_03_row_01",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_03_row_02/EXPORT_MESH_Glass_stripe___band_03_row_02",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_03_row_03/EXPORT_MESH_Glass_stripe___band_03_row_03",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_03_row_04/EXPORT_MESH_Glass_stripe___band_03_row_04",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_03_row_05/EXPORT_MESH_Glass_stripe___band_03_row_05",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_03_row_06/EXPORT_MESH_Glass_stripe___band_03_row_06",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_03_row_07/EXPORT_MESH_Glass_stripe___band_03_row_07",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_03_row_08/EXPORT_MESH_Glass_stripe___band_03_row_08",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_03_row_09/EXPORT_MESH_Glass_stripe___band_03_row_09",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_03_row_10/EXPORT_MESH_Glass_stripe___band_03_row_10",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_03_row_11/EXPORT_MESH_Glass_stripe___band_03_row_11",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_03_row_12/EXPORT_MESH_Glass_stripe___band_03_row_12",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_03_row_13/EXPORT_MESH_Glass_stripe___band_03_row_13",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_03_row_14/EXPORT_MESH_Glass_stripe___band_03_row_14",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_03_row_15/EXPORT_MESH_Glass_stripe___band_03_row_15",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_03_row_16/EXPORT_MESH_Glass_stripe___band_03_row_16",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_03_row_17/EXPORT_MESH_Glass_stripe___band_03_row_17",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_03_row_18/EXPORT_MESH_Glass_stripe___band_03_row_18",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_03_row_19/EXPORT_MESH_Glass_stripe___band_03_row_19",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_03_row_20/EXPORT_MESH_Glass_stripe___band_03_row_20",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_03_row_21/EXPORT_MESH_Glass_stripe___band_03_row_21",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_03_row_22/EXPORT_MESH_Glass_stripe___band_03_row_22",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_03_row_23/EXPORT_MESH_Glass_stripe___band_03_row_23",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_04_row_01/EXPORT_MESH_Glass_stripe___band_04_row_01",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_04_row_02/EXPORT_MESH_Glass_stripe___band_04_row_02",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_04_row_03/EXPORT_MESH_Glass_stripe___band_04_row_03",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_04_row_04/EXPORT_MESH_Glass_stripe___band_04_row_04",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_04_row_05/EXPORT_MESH_Glass_stripe___band_04_row_05",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_04_row_06/EXPORT_MESH_Glass_stripe___band_04_row_06",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_04_row_07/EXPORT_MESH_Glass_stripe___band_04_row_07",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_04_row_08/EXPORT_MESH_Glass_stripe___band_04_row_08",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_04_row_09/EXPORT_MESH_Glass_stripe___band_04_row_09",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_04_row_10/EXPORT_MESH_Glass_stripe___band_04_row_10",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_04_row_11/EXPORT_MESH_Glass_stripe___band_04_row_11",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_04_row_12/EXPORT_MESH_Glass_stripe___band_04_row_12",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_04_row_13/EXPORT_MESH_Glass_stripe___band_04_row_13",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_04_row_14/EXPORT_MESH_Glass_stripe___band_04_row_14",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_04_row_15/EXPORT_MESH_Glass_stripe___band_04_row_15",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_04_row_16/EXPORT_MESH_Glass_stripe___band_04_row_16",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_04_row_17/EXPORT_MESH_Glass_stripe___band_04_row_17",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_04_row_18/EXPORT_MESH_Glass_stripe___band_04_row_18",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_04_row_19/EXPORT_MESH_Glass_stripe___band_04_row_19",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_04_row_20/EXPORT_MESH_Glass_stripe___band_04_row_20",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_04_row_21/EXPORT_MESH_Glass_stripe___band_04_row_21",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_04_row_22/EXPORT_MESH_Glass_stripe___band_04_row_22",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_04_row_23/EXPORT_MESH_Glass_stripe___band_04_row_23",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_05_row_01/EXPORT_MESH_Glass_stripe___band_05_row_01",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_05_row_02/EXPORT_MESH_Glass_stripe___band_05_row_02",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_05_row_03/EXPORT_MESH_Glass_stripe___band_05_row_03",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_05_row_04/EXPORT_MESH_Glass_stripe___band_05_row_04",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_05_row_05/EXPORT_MESH_Glass_stripe___band_05_row_05",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_05_row_06/EXPORT_MESH_Glass_stripe___band_05_row_06",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_05_row_07/EXPORT_MESH_Glass_stripe___band_05_row_07",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_05_row_08/EXPORT_MESH_Glass_stripe___band_05_row_08",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_05_row_09/EXPORT_MESH_Glass_stripe___band_05_row_09",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_05_row_10/EXPORT_MESH_Glass_stripe___band_05_row_10",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_05_row_11/EXPORT_MESH_Glass_stripe___band_05_row_11",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_05_row_12/EXPORT_MESH_Glass_stripe___band_05_row_12",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_05_row_13/EXPORT_MESH_Glass_stripe___band_05_row_13",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_05_row_14/EXPORT_MESH_Glass_stripe___band_05_row_14",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_05_row_15/EXPORT_MESH_Glass_stripe___band_05_row_15",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_05_row_16/EXPORT_MESH_Glass_stripe___band_05_row_16",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_05_row_17/EXPORT_MESH_Glass_stripe___band_05_row_17",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_05_row_18/EXPORT_MESH_Glass_stripe___band_05_row_18",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_05_row_19/EXPORT_MESH_Glass_stripe___band_05_row_19",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_05_row_20/EXPORT_MESH_Glass_stripe___band_05_row_20",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_05_row_21/EXPORT_MESH_Glass_stripe___band_05_row_21",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_05_row_22/EXPORT_MESH_Glass_stripe___band_05_row_22",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Glass_stripe___band_05_row_23/EXPORT_MESH_Glass_stripe___band_05_row_23",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 24,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Illuminated_footprint___L/EXPORT_MESH_Illuminated_footprint___L",
+      "points": 8640,
+      "faces": 17280,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Illuminated_footprint___R/EXPORT_MESH_Illuminated_footprint___R",
+      "points": 8640,
+      "faces": 17280,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Indicator___rear_network/EXPORT_MESH_Indicator___rear_network",
+      "points": 384,
+      "faces": 764,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Indicator___rear_power/EXPORT_MESH_Indicator___rear_power",
+      "points": 384,
+      "faces": 764,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_LAN_socket_dark_opening/EXPORT_MESH_LAN_socket_dark_opening",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_LAN_socket_rim/EXPORT_MESH_LAN_socket_rim",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Power_socket_dark_center/EXPORT_MESH_Power_socket_dark_center",
+      "points": 384,
+      "faces": 764,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Power_socket_yellow_ring/EXPORT_MESH_Power_socket_yellow_ring",
+      "points": 576,
+      "faces": 1152,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Rear_interface_panel_frame/EXPORT_MESH_Rear_interface_panel_frame",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Reset_button/EXPORT_MESH_Reset_button",
+      "points": 384,
+      "faces": 764,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Speaker_grille___line_1/EXPORT_MESH_Speaker_grille___line_1",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Speaker_grille___line_2/EXPORT_MESH_Speaker_grille___line_2",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Speaker_grille___line_3/EXPORT_MESH_Speaker_grille___line_3",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Spirit_level_bubble___static/EXPORT_MESH_Spirit_level_bubble___static",
+      "points": 384,
+      "faces": 764,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Spirit_level_housing/EXPORT_MESH_Spirit_level_housing",
+      "points": 384,
+      "faces": 764,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Spirit_level_support/EXPORT_MESH_Spirit_level_support",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Spirit_level_target/EXPORT_MESH_Spirit_level_target",
+      "points": 576,
+      "faces": 1152,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Spirit_level_window/EXPORT_MESH_Spirit_level_window",
+      "points": 384,
+      "faces": 764,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_USB_socket_dark_opening/EXPORT_MESH_USB_socket_dark_opening",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_USB_socket_rim/EXPORT_MESH_USB_socket_rim",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Ultrasonic_power_indicator/EXPORT_MESH_Ultrasonic_power_indicator",
+      "points": 384,
+      "faces": 764,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 96,
+      "exact_zero_area_faces": 96
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_WPS_button/EXPORT_MESH_WPS_button",
+      "points": 384,
+      "faces": 764,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_axle/EXPORT_MESH_Wheel_axle",
+      "points": 384,
+      "faces": 764,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_axle_001/EXPORT_MESH_Wheel_axle_001",
+      "points": 384,
+      "faces": 764,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_guard_groove_appearance_1_1/EXPORT_MESH_Wheel_guard_groove_appearance_1_1",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_guard_groove_appearance_1_2/EXPORT_MESH_Wheel_guard_groove_appearance_1_2",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_guard_groove_appearance_1_3/EXPORT_MESH_Wheel_guard_groove_appearance_1_3",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_guard_groove_appearance_1_4/EXPORT_MESH_Wheel_guard_groove_appearance_1_4",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_guard_groove_appearance_1_5/EXPORT_MESH_Wheel_guard_groove_appearance_1_5",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_guard_groove_appearance_1_6/EXPORT_MESH_Wheel_guard_groove_appearance_1_6",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_guard_groove_appearance_1_7/EXPORT_MESH_Wheel_guard_groove_appearance_1_7",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_guard_groove_appearance__1_1/EXPORT_MESH_Wheel_guard_groove_appearance__1_1",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_guard_groove_appearance__1_2/EXPORT_MESH_Wheel_guard_groove_appearance__1_2",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_guard_groove_appearance__1_3/EXPORT_MESH_Wheel_guard_groove_appearance__1_3",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_guard_groove_appearance__1_4/EXPORT_MESH_Wheel_guard_groove_appearance__1_4",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_guard_groove_appearance__1_5/EXPORT_MESH_Wheel_guard_groove_appearance__1_5",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_guard_groove_appearance__1_6/EXPORT_MESH_Wheel_guard_groove_appearance__1_6",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_guard_groove_appearance__1_7/EXPORT_MESH_Wheel_guard_groove_appearance__1_7",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_guard_shell_1/EXPORT_MESH_Wheel_guard_shell_1",
+      "points": 132,
+      "faces": 260,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_guard_shell__1/EXPORT_MESH_Wheel_guard_shell__1",
+      "points": 132,
+      "faces": 260,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_hub_inset_1/EXPORT_MESH_Wheel_hub_inset_1",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_hub_inset_2/EXPORT_MESH_Wheel_hub_inset_2",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_hub_washer_1/EXPORT_MESH_Wheel_hub_washer_1",
+      "points": 256,
+      "faces": 512,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_hub_washer_2/EXPORT_MESH_Wheel_hub_washer_2",
+      "points": 256,
+      "faces": 512,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_stationary_side_housing_1/EXPORT_MESH_Wheel_stationary_side_housing_1",
+      "points": 488,
+      "faces": 972,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Base/Visual/EXPORT_Wheel_stationary_side_housing__1/EXPORT_MESH_Wheel_stationary_side_housing__1",
+      "points": 488,
+      "faces": 972,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_Display___USB_dark_opening/EXPORT_MESH_Display___USB_dark_opening",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 12,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_Display___USB_socket_frame/EXPORT_MESH_Display___USB_socket_frame",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_Display___USB_tongue/EXPORT_MESH_Display___USB_tongue",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_Display___data_plug/EXPORT_MESH_Display___data_plug",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_Display___data_socket_dark_opening/EXPORT_MESH_Display___data_socket_dark_opening",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 12,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_Display___data_socket_frame/EXPORT_MESH_Display___data_socket_frame",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_Display___rear_cover/EXPORT_MESH_Display___rear_cover",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 32,
+      "exact_zero_area_faces": 32
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_Display___rear_cover_seam/EXPORT_MESH_Display___rear_cover_seam",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 32,
+      "exact_zero_area_faces": 32
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_Display___transparent_cover/EXPORT_MESH_Display___transparent_cover",
+      "points": 72,
+      "faces": 140,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_ID_display_active_image/EXPORT_MESH_ID_display_active_image",
+      "points": 152,
+      "faces": 300,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_ID_display_glass_bezel/EXPORT_MESH_ID_display_glass_bezel",
+      "points": 144,
+      "faces": 288,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_ID_display_rear_shell/EXPORT_MESH_ID_display_rear_shell",
+      "points": 152,
+      "faces": 300,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___button_recall/EXPORT_MESH_SIM___button_recall",
+      "points": 908,
+      "faces": 892,
+      "boundary_edges": 908,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___button_send/EXPORT_MESH_SIM___button_send",
+      "points": 1308,
+      "faces": 1288,
+      "boundary_edges": 1308,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___button_tare/EXPORT_MESH_SIM___button_tare",
+      "points": 500,
+      "faces": 492,
+      "boundary_edges": 500,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___capacity/EXPORT_MESH_SIM___capacity",
+      "points": 3324,
+      "faces": 3308,
+      "boundary_edges": 3324,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___confirm_tile/EXPORT_MESH_SIM___confirm_tile",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___connection_wifi_1/EXPORT_MESH_SIM___connection_wifi_1",
+      "points": 104,
+      "faces": 192,
+      "boundary_edges": 16,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___connection_wifi_2/EXPORT_MESH_SIM___connection_wifi_2",
+      "points": 104,
+      "faces": 192,
+      "boundary_edges": 16,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___connection_wifi_3/EXPORT_MESH_SIM___connection_wifi_3",
+      "points": 104,
+      "faces": 192,
+      "boundary_edges": 16,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___connection_wifi_4/EXPORT_MESH_SIM___connection_wifi_4",
+      "points": 104,
+      "faces": 192,
+      "boundary_edges": 16,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___divider/EXPORT_MESH_SIM___divider",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___divider_001/EXPORT_MESH_SIM___divider_001",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___header/EXPORT_MESH_SIM___header",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___height_region/EXPORT_MESH_SIM___height_region",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___kg/EXPORT_MESH_SIM___kg",
+      "points": 1064,
+      "faces": 1060,
+      "boundary_edges": 1064,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___message_region/EXPORT_MESH_SIM___message_region",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___ready_foot_L/EXPORT_MESH_SIM___ready_foot_L",
+      "points": 1200,
+      "faces": 2400,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___ready_foot_R/EXPORT_MESH_SIM___ready_foot_R",
+      "points": 1200,
+      "faces": 2400,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___ready_label/EXPORT_MESH_SIM___ready_label",
+      "points": 3644,
+      "faces": 3624,
+      "boundary_edges": 3644,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___recall_region/EXPORT_MESH_SIM___recall_region",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___settings_region/EXPORT_MESH_SIM___settings_region",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___state/EXPORT_MESH_SIM___state",
+      "points": 720,
+      "faces": 712,
+      "boundary_edges": 720,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___tare_region/EXPORT_MESH_SIM___tare_region",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___title/EXPORT_MESH_SIM___title",
+      "points": 3264,
+      "faces": 3264,
+      "boundary_edges": 3264,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___toolbar/EXPORT_MESH_SIM___toolbar",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___weight/EXPORT_MESH_SIM___weight",
+      "points": 1344,
+      "faces": 1340,
+      "boundary_edges": 1344,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Tilt/Visual/EXPORT_SIM___weight_region/EXPORT_MESH_SIM___weight_region",
+      "points": 8,
+      "faces": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Display_Yaw/Visual/EXPORT_Display_bottom_swivel_housing/EXPORT_MESH_Display_bottom_swivel_housing",
+      "points": 96,
+      "faces": 188,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Wheel_L/Visual/EXPORT_Transport_wheel_tread/EXPORT_MESH_Transport_wheel_tread",
+      "points": 384,
+      "faces": 764,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    },
+    {
+      "path": "/SecaScaleUpUltra/Links/Wheel_R/Visual/EXPORT_Transport_wheel_tread_001/EXPORT_MESH_Transport_wheel_tread_001",
+      "points": 384,
+      "faces": 764,
+      "boundary_edges": 0,
+      "nonmanifold_edges_gt2": 0,
+      "inconsistent_winding_edges": 0,
+      "near_zero_cross_product_faces": 0,
+      "exact_zero_area_faces": 0
+    }
+  ],
+  "scope": "Index-topology inventory and triangle cross-product magnitudes under 2e-14 square meters of exported visual meshes only, not an intersection, manifold welding, physics-proxy, source-intent or rendering acceptance test. Open surfaces can be intentional artwork; findings require review."
+}

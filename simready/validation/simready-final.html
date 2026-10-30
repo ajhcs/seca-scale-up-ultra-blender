@@ -1,0 +1,178 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>SimReady Validation Report</title>
+<style>
+:root{
+  --bg:#0b0f14; --bg1:#11161f; --bg2:#161d28; --bg3:#1e2735;
+  --line:rgba(255,255,255,.08); --line2:rgba(255,255,255,.14);
+  --fg:#eef2f8; --fg2:#aeb8c8; --fg3:#6b7689;
+  --pass:#5ad19a; --pass-bg:rgba(90,209,154,.12);
+  --fail:#ff6b6b; --fail-bg:rgba(255,107,107,.12);
+  --skip:#f5b942; --skip-bg:rgba(245,185,66,.12);
+  --none:#8893a6; --none-bg:rgba(136,147,166,.12);
+  --nv:#76b900; --warn:#f5b942; --err:#ff6b6b;
+  --mono:"IBM Plex Mono","JetBrains Mono","SFMono-Regular",Consolas,monospace;
+  --sans:"IBM Plex Sans","Segoe UI",-apple-system,BlinkMacSystemFont,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:
+  radial-gradient(900px 500px at 85% -10%,rgba(118,185,0,.07),transparent 60%),
+  var(--bg);
+  color:var(--fg);font-family:var(--sans);font-size:14px;line-height:1.5;
+  -webkit-font-smoothing:antialiased;padding-bottom:60px}
+a{color:inherit;text-decoration:none}
+.top{display:flex;align-items:center;gap:16px;padding:12px 32px;background:var(--bg1);
+  border-bottom:1px solid var(--line)}
+.top .logo{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;
+  background:linear-gradient(135deg,var(--nv),#4a7500);border-radius:8px;color:#000;font-weight:700;
+  font-size:14px;font-family:var(--mono);box-shadow:0 0 20px rgba(118,185,0,.12)}
+.top h1{font-size:20px;font-weight:600;letter-spacing:-.02em}
+.top h1 b{color:var(--nv);font-weight:600}
+.top .meta{margin-left:auto;font-family:var(--mono);font-size:12px;color:var(--fg3)}
+.top .ghlink{font-family:var(--mono);font-size:12px;color:var(--fg3);margin-left:8px;
+  border:1px solid var(--line2);border-radius:6px;padding:4px 10px;transition:all .12s}
+.top .ghlink:hover{color:var(--nv);border-color:var(--nv)}
+.summary{display:flex;gap:14px;flex-wrap:wrap;padding:14px 32px 8px}
+.stat{background:var(--bg1);border:1px solid var(--line);border-radius:12px;
+  padding:14px 20px;min-width:118px;overflow:hidden;position:relative}
+.stat .k{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--fg3)}
+.stat .v{font-family:var(--mono);font-size:30px;font-weight:600;line-height:1.1;margin-top:2px}
+.stat.s-total .v{color:var(--fg)}
+.stat.s-pass .v{color:var(--pass)} .stat.s-fail .v{color:var(--fail)}
+.stat::after{content:"";position:absolute;left:0;bottom:0;height:3px;width:100%}
+.stat.s-pass::after{background:var(--pass)} .stat.s-fail::after{background:var(--fail)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px;padding:8px 32px}
+.card{background:var(--bg1);border:1px solid var(--line);border-radius:14px;padding:16px}
+.card[data-v="fail"]{border-left:3px solid var(--fail)}
+.card[data-v="pass"]{border-left:3px solid var(--pass)}
+.card[data-v="error"]{border-left:3px dashed var(--err)}
+.card .chead{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+.verdict{display:inline-block;width:13px;height:13px;border-radius:50%;flex-shrink:0}
+.v-pass{background:var(--pass)} .v-fail{background:var(--fail)} .v-error{background:var(--err)}
+.v-warn{background:var(--warn)}
+.fname{font-family:var(--mono);font-size:14px;font-weight:600;flex:1;line-height:1.35;overflow-wrap:anywhere}
+.cdir{font-family:var(--mono);font-size:11px;color:var(--fg3);margin-bottom:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.profile-row{font-family:var(--mono);font-size:12px;color:var(--fg2);margin-bottom:10px}
+.profile-row .pid{color:var(--nv)}
+.err-note{font-family:var(--mono);font-size:12px;color:var(--err);padding:8px 0;font-style:italic}
+.features{display:flex;flex-direction:column;gap:6px}
+.feat{background:var(--bg2);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.feat-head{display:flex;align-items:center;gap:8px;padding:8px 12px;cursor:pointer;
+  user-select:none;transition:background .1s}
+.feat-head:hover{background:var(--bg3)}
+.feat-head .fid{font-family:var(--mono);font-size:13px;font-weight:600;flex:1}
+.feat-head .fver{font-family:var(--mono);font-size:11px;color:var(--fg3)}
+.feat-head .feat-gh{font-family:var(--mono);font-size:11px;color:var(--fg3);
+  border:1px solid var(--line2);border-radius:4px;padding:1px 7px;flex-shrink:0;transition:all .12s}
+.feat-head .feat-gh:hover{color:var(--nv);border-color:var(--nv)}
+.feat-body{padding:10px 14px;border-top:1px solid var(--line);display:none}
+.feat.open .feat-body{display:block}
+.feat.open .feat-head{background:var(--bg3)}
+.req-list{list-style:none;display:flex;flex-direction:column;gap:6px;margin-bottom:4px}
+.req-item{font-family:var(--mono);font-size:12px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.req-id{color:var(--fail);font-weight:700;flex-shrink:0}
+.req-id.req-opt{color:var(--warn)}
+.req-msg{color:var(--fg2);flex:1}
+.opt-note{font-family:var(--mono);font-size:11px;color:var(--warn);padding-bottom:6px}
+.req-link{color:var(--fg3);font-size:11px;border:1px solid var(--line2);border-radius:4px;
+  padding:1px 7px;white-space:nowrap;flex-shrink:0;transition:all .12s}
+.req-link:hover{color:var(--nv);border-color:var(--nv)}
+.all-pass{font-family:var(--mono);font-size:12px;color:var(--pass)}
+.issues{margin-top:8px;display:flex;flex-direction:column;gap:4px}
+.issue{font-family:var(--mono);font-size:11px;color:var(--fg2);background:var(--bg);
+  border-radius:6px;padding:6px 10px;line-height:1.6}
+.issue .sev{font-weight:700;margin-right:6px}
+.sev-error{color:var(--err)} .sev-warning{color:var(--warn)}
+.section-lbl{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--fg3);padding:6px 0 4px}
+</style></head><body>
+<div class="top"><span class="logo">SR</span><h1><b>SimReady</b> Validation Report</h1>
+<span class="meta" id="meta"></span>
+<a class="ghlink" href="https://github.com/NVIDIA/simready-foundation" target="_blank" rel="noopener">SimReady Foundation &#8599;</a>
+</div>
+<div class="summary" id="summary"></div>
+<div class="grid" id="root"></div>
+<script>
+var M={"generated_at": "2026-10-30 15:08", "summary": {"total": 1, "passed": 1, "failed": 0}, "assets": [{"path": "asset/seca_scale_up_ultra_articulated/usd/seca_scale_up_ultra_articulated.usda", "file": "seca_scale_up_ultra_articulated.usda", "dir": "asset/seca_scale_up_ultra_articulated/usd", "verdict": "pass", "profile_id": "Robotics-Prop", "profile_version": "4.0.0", "features": [{"id": "FET_000_MUJOCO", "version": "0.1.0", "passed": false, "blocking": false, "failing_requirements": [], "optional_requirements": ["com.nvidia.simready.RV.007", "com.nvidia.simready.SR.001"], "requirement_messages": {}, "req_urls": {}, "feat_url": "https://github.com/NVIDIA/simready-foundation/blob/main/nv_core/sr_specs/docs/features/FET_000-base_neutral-0.1.0-core.md"}, {"id": "FET_000_NEWTON", "version": "0.1.0", "passed": false, "blocking": false, "failing_requirements": [], "optional_requirements": ["com.nvidia.simready.RV.004", "com.nvidia.simready.SR.001"], "requirement_messages": {}, "req_urls": {}, "feat_url": "https://github.com/NVIDIA/simready-foundation/blob/main/nv_core/sr_specs/docs/features/FET_000-base_neutral-0.1.0-core.md"}, {"id": "FET_000_PHYSX", "version": "0.1.0", "passed": false, "blocking": false, "failing_requirements": [], "optional_requirements": ["com.nvidia.simready.RV.001", "com.nvidia.simready.SR.001"], "requirement_messages": {}, "req_urls": {}, "feat_url": "https://github.com/NVIDIA/simready-foundation/blob/main/nv_core/sr_specs/docs/features/FET_000-base_neutral-0.1.0-core.md"}, {"id": "FET_000_STANDARD", "version": "0.2.0", "passed": false, "blocking": false, "failing_requirements": [], "optional_requirements": ["com.nvidia.simready.SR.001"], "requirement_messages": {}, "req_urls": {}, "feat_url": "https://github.com/NVIDIA/simready-foundation/blob/main/nv_core/sr_specs/docs/features/FET_000-base_neutral-0.1.0-core.md"}, {"id": "FET_003_MUJOCO", "version": "0.1.0", "passed": false, "blocking": false, "failing_requirements": [], "optional_requirements": ["com.nvidia.simready.MUJOCO.COL.001"], "requirement_messages": {}, "req_urls": {}, "feat_url": "https://github.com/NVIDIA/simready-foundation/blob/main/nv_core/sr_specs/docs/features/FET_003-rigid_body_physics.md"}, {"id": "FET_003_NEWTON", "version": "0.1.0", "passed": false, "blocking": false, "failing_requirements": [], "optional_requirements": ["com.nvidia.simready.NEWTON.COL.001"], "requirement_messages": {}, "req_urls": {}, "feat_url": "https://github.com/NVIDIA/simready-foundation/blob/main/nv_core/sr_specs/docs/features/FET_003-rigid_body_physics.md"}, {"id": "FET_004_MUJOCO", "version": "0.1.0", "passed": false, "blocking": false, "failing_requirements": [], "optional_requirements": ["com.nvidia.simready.MUJOCO.COL.001"], "requirement_messages": {}, "req_urls": {}, "feat_url": "https://github.com/NVIDIA/simready-foundation/blob/main/nv_core/sr_specs/docs/features/FET_004-simulate_multi_body_physics.md"}, {"id": "FET_004_NEWTON", "version": "0.1.0", "passed": false, "blocking": false, "failing_requirements": [], "optional_requirements": ["com.nvidia.simready.NEWTON.COL.001"], "requirement_messages": {}, "req_urls": {}, "feat_url": "https://github.com/NVIDIA/simready-foundation/blob/main/nv_core/sr_specs/docs/features/FET_004-simulate_multi_body_physics.md"}, {"id": "FET_005_STANDARD", "version": "0.1.0", "passed": false, "blocking": false, "failing_requirements": [], "optional_requirements": ["com.nvidia.simready.GSP.001"], "requirement_messages": {}, "req_urls": {}, "feat_url": "https://github.com/NVIDIA/simready-foundation/blob/main/nv_core/sr_specs/docs/features/FET_005-simulate_grasp_physics.md"}, {"id": "FET_006_MDL", "version": "0.2.0", "passed": false, "blocking": false, "failing_requirements": [], "optional_requirements": ["com.nvidia.simready.VM.MDL.003"], "requirement_messages": {}, "req_urls": {}, "feat_url": "https://github.com/NVIDIA/simready-foundation/blob/main/nv_core/sr_specs/docs/features/FET_006-materials.md"}, {"id": "FET_006_OPENPBR", "version": "0.1.0", "passed": false, "blocking": false, "failing_requirements": [], "optional_requirements": ["com.nvidia.simready.VM.PBR.001"], "requirement_messages": {}, "req_urls": {}, "feat_url": "https://github.com/NVIDIA/simready-foundation/blob/main/nv_core/sr_specs/docs/features/FET_006-materials.md"}, {"id": "FET_007_STANDARD", "version": "0.2.0", "passed": false, "blocking": false, "failing_requirements": [], "optional_requirements": ["com.nvidia.simready.NVM.001", "com.nvidia.simready.NVM.002", "com.nvidia.simready.NVM.003"], "requirement_messages": {}, "req_urls": {}, "feat_url": "https://github.com/NVIDIA/simready-foundation/blob/main/nv_core/sr_specs/docs/features/FET_007-nonvisual_materials.md"}, {"id": "FET_010_STANDARD", "version": "0.1.0", "passed": false, "blocking": false, "failing_requirements": [], "optional_requirements": ["com.nvidia.simready.DISP.001"], "requirement_messages": {}, "req_urls": {}, "feat_url": null}, {"id": "FET_100_ISAAC", "version": "0.4.0", "passed": false, "blocking": false, "failing_requirements": [], "optional_requirements": ["com.nvidia.simready.ISA.001"], "requirement_messages": {}, "req_urls": {}, "feat_url": "https://github.com/NVIDIA/simready-foundation/blob/main/nv_core/sr_specs/docs/features/FET_100-isaacsim-0.1.0-composition.md"}, {"id": "FET_001_STANDARD", "version": "1.0.1", "passed": true, "blocking": false, "failing_requirements": [], "optional_requirements": [], "requirement_messages": {}, "req_urls": {}, "feat_url": "https://github.com/NVIDIA/simready-foundation/blob/main/nv_core/sr_specs/docs/features/FET_001-minimal.md"}, {"id": "FET_003_PHYSX", "version": "0.4.0", "passed": true, "blocking": false, "failing_requirements": [], "optional_requirements": [], "requirement_messages": {}, "req_urls": {}, "feat_url": "https://github.com/NVIDIA/simready-foundation/blob/main/nv_core/sr_specs/docs/features/FET_003-rigid_body_physics.md"}, {"id": "FET_003_STANDARD", "version": "0.2.0", "passed": true, "blocking": false, "failing_requirements": [], "optional_requirements": [], "requirement_messages": {}, "req_urls": {}, "feat_url": "https://github.com/NVIDIA/simready-foundation/blob/main/nv_core/sr_specs/docs/features/FET_003-rigid_body_physics.md"}, {"id": "FET_004_PHYSX", "version": "0.4.0", "passed": true, "blocking": false, "failing_requirements": [], "optional_requirements": [], "requirement_messages": {}, "req_urls": {}, "feat_url": "https://github.com/NVIDIA/simready-foundation/blob/main/nv_core/sr_specs/docs/features/FET_004-simulate_multi_body_physics.md"}, {"id": "FET_004_STANDARD", "version": "0.2.0", "passed": true, "blocking": false, "failing_requirements": [], "optional_requirements": [], "requirement_messages": {}, "req_urls": {}, "feat_url": "https://github.com/NVIDIA/simready-foundation/blob/main/nv_core/sr_specs/docs/features/FET_004-simulate_multi_body_physics.md"}, {"id": "FET_006_STANDARD", "version": "0.2.0", "passed": true, "blocking": false, "failing_requirements": [], "optional_requirements": [], "requirement_messages": {}, "req_urls": {}, "feat_url": "https://github.com/NVIDIA/simready-foundation/blob/main/nv_core/sr_specs/docs/features/FET_006-materials.md"}, {"id": "FET_011_RTX", "version": "0.1.0", "passed": true, "blocking": false, "failing_requirements": [], "optional_requirements": [], "requirement_messages": {}, "req_urls": {}, "feat_url": "https://github.com/NVIDIA/simready-foundation/blob/main/nv_core/sr_specs/docs/features/FET_011-semantic_labels.md"}, {"id": "FET_011_STANDARD", "version": "0.2.0", "passed": true, "blocking": false, "failing_requirements": [], "optional_requirements": [], "requirement_messages": {}, "req_urls": {}, "feat_url": "https://github.com/NVIDIA/simready-foundation/blob/main/nv_core/sr_specs/docs/features/FET_011-semantic_labels.md"}, {"id": "FET_031_STANDARD", "version": "0.1.0", "passed": true, "blocking": false, "failing_requirements": [], "optional_requirements": [], "requirement_messages": {}, "req_urls": {}, "feat_url": "https://github.com/NVIDIA/simready-foundation/blob/main/nv_core/sr_specs/docs/features/FET_031-package_self_contained.md"}, {"id": "FET_033_STANDARD", "version": "0.4.0", "passed": true, "blocking": false, "failing_requirements": [], "optional_requirements": [], "requirement_messages": {}, "req_urls": {}, "feat_url": null}, {"id": "FET_046_STANDARD", "version": "0.1.0", "passed": true, "blocking": false, "failing_requirements": [], "optional_requirements": [], "requirement_messages": {}, "req_urls": {}, "feat_url": null}], "issues": [], "error": null}]};
+function esc(s){if(!s&&s!==0)return'';return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function render(){
+  var s=M.summary;
+  document.getElementById('meta').textContent=M.generated_at;
+  var sum=document.getElementById('summary');
+  sum.innerHTML=
+    '<div class="stat s-total"><div class="k">Total</div><div class="v">'+s.total+'</div></div>'+
+    '<div class="stat s-pass"><div class="k">Passed</div><div class="v">'+s.passed+'</div></div>'+
+    '<div class="stat s-fail"><div class="k">Failed</div><div class="v">'+s.failed+'</div></div>';
+  var grid=document.getElementById('root');
+  grid.innerHTML='';
+  M.assets.forEach(function(a){
+    var card=document.createElement('div');
+    card.className='card';
+    card.setAttribute('data-v',a.verdict);
+    var vdot='<span class="verdict v-'+esc(a.verdict)+'" title="'+esc(a.verdict)+'"></span>';
+    var profRow=a.profile_id
+      ? '<div class="profile-row">Profile: <span class="pid">'+esc(a.profile_id)+'</span>'+(a.profile_version?' v'+esc(a.profile_version):'')+'</div>'
+      : '';
+    var body='';
+    if(a.error){
+      body='<div class="err-note">'+esc(a.error)+'</div>';
+    } else {
+      body='<div class="features">'+a.features.map(function(f){
+        var st=f.passed?'pass':(f.blocking?'fail':'warn');
+        var ghBtn=f.feat_url
+          ? ' <a class="feat-gh" href="'+esc(f.feat_url)+'" target="_blank" rel="noopener" title="Feature specification" onclick="event.stopPropagation()">spec &#8599;</a>'
+          : '';
+        function reqRow(r,optional){
+          var msg=f.requirement_messages[r]||'';
+          var reqUrl=f.req_urls[r]||'';
+          var refLink=reqUrl
+            ? '<a class="req-link" href="'+esc(reqUrl)+'" target="_blank" rel="noopener" title="'+esc(r)+' specification">spec &#8599;</a>'
+            : '';
+          return '<li class="req-item">'+
+            '<span class="req-id'+(optional?' req-opt':'')+'">'+esc(r)+'</span>'+
+            (msg?'<span class="req-msg">'+esc(msg)+'</span>':'')+
+            refLink+
+          '</li>';
+        }
+        var inner='';
+        if(f.passed){
+          inner='<div class="all-pass">All requirements passed.</div>';
+        } else {
+          var rows=f.failing_requirements.map(function(r){return reqRow(r,false);}).join('')+
+                   f.optional_requirements.map(function(r){return reqRow(r,true);}).join('');
+          // The profile accepts an asset without an optional feature, so say so
+          // rather than leaving an unexplained red row.
+          var note=f.blocking
+            ? ''
+            : '<div class="opt-note">Optional for this profile &mdash; does not fail the asset.</div>';
+          inner=note+'<ul class="req-list">'+rows+'</ul>';
+        }
+        return '<div class="feat'+(f.passed?'':' open')+'" data-pass="'+esc(String(f.passed))+'">'+
+          '<div class="feat-head" onclick="this.parentNode.classList.toggle(\'open\')">'+
+            '<span class="verdict v-'+esc(st)+'" title="'+esc(st)+'"></span>'+
+            '<span class="fid">'+esc(f.id)+'</span>'+
+            (f.version?'<span class="fver">v'+esc(f.version)+'</span>':'')+
+            ghBtn+
+          '</div>'+
+          '<div class="feat-body">'+inner+'</div>'+
+        '</div>';
+      }).join('')+'</div>';
+      if(a.issues&&a.issues.length){
+        body+='<div class="section-lbl">Issues</div><div class="issues">'+
+          a.issues.map(function(i){
+            var sev=i.severity||'';
+            return '<div class="issue"><span class="sev sev-'+esc(sev.toLowerCase())+'">'+esc(sev)+'</span>'+esc(i.message||'')+'</div>';
+          }).join('')+'</div>';
+      }
+    }
+    card.innerHTML=
+      '<div class="chead">'+vdot+'<span class="fname" title="'+esc(a.path)+'">'+esc(a.file)+'</span></div>'+
+      '<div class="cdir">'+esc(a.dir)+'</div>'+
+      profRow+
+      body;
+    grid.appendChild(card);
+  });
+}
+render();
+</script>
+</body></html>

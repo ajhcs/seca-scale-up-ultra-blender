@@ -1,0 +1,210 @@
+{
+  "usd_visual_meshes": 272,
+  "usd_collider_meshes": 42,
+  "fps": 12,
+  "frames": 36,
+  "poses": [
+    {
+      "frame": 0,
+      "yaw_rad": 0.0,
+      "tilt_rad": 0.18
+    },
+    {
+      "frame": 1,
+      "yaw_rad": 0.06077686218342561,
+      "tilt_rad": 0.17726539554219745
+    },
+    {
+      "frame": 2,
+      "yaw_rad": 0.11970705016398404,
+      "tilt_rad": 0.1691446717414635
+    },
+    {
+      "frame": 3,
+      "yaw_rad": 0.17499999999999996,
+      "tilt_rad": 0.15588457268119896
+    },
+    {
+      "frame": 4,
+      "yaw_rad": 0.2249756633902887,
+      "tilt_rad": 0.13788799976141602
+    },
+    {
+      "frame": 5,
+      "yaw_rad": 0.2681155550916423,
+      "tilt_rad": 0.11570176974357708
+    },
+    {
+      "frame": 6,
+      "yaw_rad": 0.3031088913245535,
+      "tilt_rad": 0.09000000000000001
+    },
+    {
+      "frame": 7,
+      "yaw_rad": 0.3288924172750679,
+      "tilt_rad": 0.06156362579862039
+    },
+    {
+      "frame": 8,
+      "yaw_rad": 0.34468271355427277,
+      "tilt_rad": 0.031256671980047473
+    },
+    {
+      "frame": 9,
+      "yaw_rad": 0.35,
+      "tilt_rad": 1.1021821192326179e-17
+    },
+    {
+      "frame": 10,
+      "yaw_rad": 0.34468271355427277,
+      "tilt_rad": -0.03125667198004745
+    },
+    {
+      "frame": 11,
+      "yaw_rad": 0.3288924172750679,
+      "tilt_rad": -0.061563625798620326
+    },
+    {
+      "frame": 12,
+      "yaw_rad": 0.30310889132455354,
+      "tilt_rad": -0.08999999999999996
+    },
+    {
+      "frame": 13,
+      "yaw_rad": 0.2681155550916423,
+      "tilt_rad": -0.11570176974357708
+    },
+    {
+      "frame": 14,
+      "yaw_rad": 0.2249756633902888,
+      "tilt_rad": -0.13788799976141602
+    },
+    {
+      "frame": 15,
+      "yaw_rad": 0.1750000000000001,
+      "tilt_rad": -0.15588457268119893
+    },
+    {
+      "frame": 16,
+      "yaw_rad": 0.1197070501639841,
+      "tilt_rad": -0.1691446717414635
+    },
+    {
+      "frame": 17,
+      "yaw_rad": 0.060776862183425595,
+      "tilt_rad": -0.17726539554219745
+    },
+    {
+      "frame": 18,
+      "yaw_rad": 4.286263797015736e-17,
+      "tilt_rad": -0.18
+    },
+    {
+      "frame": 19,
+      "yaw_rad": -0.060776862183425505,
+      "tilt_rad": -0.17726539554219745
+    },
+    {
+      "frame": 20,
+      "yaw_rad": -0.11970705016398402,
+      "tilt_rad": -0.1691446717414635
+    },
+    {
+      "frame": 21,
+      "yaw_rad": -0.17500000000000002,
+      "tilt_rad": -0.15588457268119893
+    },
+    {
+      "frame": 22,
+      "yaw_rad": -0.2249756633902886,
+      "tilt_rad": -0.1378879997614161
+    },
+    {
+      "frame": 23,
+      "yaw_rad": -0.26811555509164225,
+      "tilt_rad": -0.1157017697435771
+    },
+    {
+      "frame": 24,
+      "yaw_rad": -0.30310889132455343,
+      "tilt_rad": -0.09000000000000008
+    },
+    {
+      "frame": 25,
+      "yaw_rad": -0.3288924172750679,
+      "tilt_rad": -0.06156362579862033
+    },
+    {
+      "frame": 26,
+      "yaw_rad": -0.34468271355427277,
+      "tilt_rad": -0.03125667198004746
+    },
+    {
+      "frame": 27,
+      "yaw_rad": -0.35,
+      "tilt_rad": -3.306546357697853e-17
+    },
+    {
+      "frame": 28,
+      "yaw_rad": -0.3446827135542728,
+      "tilt_rad": 0.03125667198004739
+    },
+    {
+      "frame": 29,
+      "yaw_rad": -0.3288924172750679,
+      "tilt_rad": 0.06156362579862042
+    },
+    {
+      "frame": 30,
+      "yaw_rad": -0.30310889132455365,
+      "tilt_rad": 0.08999999999999987
+    },
+    {
+      "frame": 31,
+      "yaw_rad": -0.2681155550916423,
+      "tilt_rad": 0.11570176974357706
+    },
+    {
+      "frame": 32,
+      "yaw_rad": -0.22497566339028885,
+      "tilt_rad": 0.137887999761416
+    },
+    {
+      "frame": 33,
+      "yaw_rad": -0.17499999999999988,
+      "tilt_rad": 0.15588457268119899
+    },
+    {
+      "frame": 34,
+      "yaw_rad": -0.119707050163984,
+      "tilt_rad": 0.1691446717414635
+    },
+    {
+      "frame": 35,
+      "yaw_rad": -0.06077686218342563,
+      "tilt_rad": 0.17726539554219745
+    }
+  ],
+  "scope": "Blender imported USD. Collider image shows solid guide-purpose collision proxies by link; animation sets visual transforms manually and is not physics playback or evidence of actual device range.",
+  "gif_verification": {
+    "gif_sha256": "31f400cc78fac2387e96e698201f8d523d1149a9bfda212cd83bc21feea367b8",
+    "frames": 36,
+    "dimensions": [
+      640,
+      480
+    ],
+    "duration_ms": 3000,
+    "max_mean_channel_error_0_to_255": 0.9574685329861111,
+    "mean_loop_seam_delta": 0.958125,
+    "max_interior_delta": 1.9255555555555555,
+    "checks": {
+      "all_36_frames_decode": true,
+      "expected_dimensions": true,
+      "infinite_loop": true,
+      "render_to_gif_average_error_under_5_levels": true,
+      "motion_frames_are_distinct": true,
+      "loop_seam_within_twice_largest_interior_delta": true
+    },
+    "scope": "GIF decoding and pixel comparisons against Blender-rendered visual frames; not a device, USD dynamics, or accessibility acceptance test."
+  }
+}

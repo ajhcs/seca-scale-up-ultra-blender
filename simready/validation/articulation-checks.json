@@ -1,0 +1,1756 @@
+{
+  "checks": {
+    "source_blend_unchanged": true,
+    "all_272_component_bounds_match": true,
+    "all_source_material_bindings_match": true,
+    "five_bodies_four_revolute_joints": true,
+    "mass_sums_to_29kg": true,
+    "joint_frames_coincident": true,
+    "joint_graph_axes_and_limits_match_study": true,
+    "finite_physical_inertia_and_normalized_axes": true,
+    "connected_pair_collisions_disabled": true,
+    "only_display_mount_pair_explicitly_filtered": true,
+    "no_unfiltered_proxy_overlap_over_10um": true,
+    "closed_collider_meshes_and_bindings": true,
+    "visual_materials_have_surface_and_labels": true,
+    "no_unresolved_dependencies": true,
+    "drives_only_in_optional_overlay": true,
+    "usd_meters_z_up": true
+  },
+  "component_checks": [
+    {
+      "name": "257 \u2022 aperture wall 1 L",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 aperture wall 1 R",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 aperture wall 2 L",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 aperture wall 2 R",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 aperture wall 3 L",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 aperture wall 3 R",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 column joint 1",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 column joint 2",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 dark rear channel",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 dark tapered mast transition",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 front guide 1 -1",
+      "group": "Base",
+      "max_abs_error_m": 3.958120942115784e-09,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 front guide 1 1",
+      "group": "Base",
+      "max_abs_error_m": 3.958120942115784e-09,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 front guide 2 -1",
+      "group": "Base",
+      "max_abs_error_m": 2.9802322387695312e-08,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 front guide 2 1",
+      "group": "Base",
+      "max_abs_error_m": 2.9802322387695312e-08,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 front guide 3 -1",
+      "group": "Base",
+      "max_abs_error_m": 2.9802322387695312e-08,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 front guide 3 1",
+      "group": "Base",
+      "max_abs_error_m": 2.9802322387695312e-08,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 head lower shell",
+      "group": "Base",
+      "max_abs_error_m": 4.190951585769653e-08,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 head upper shell",
+      "group": "Base",
+      "max_abs_error_m": 2.7939677238464355e-08,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 removable channel cover 1 (estimated)",
+      "group": "Base",
+      "max_abs_error_m": 6.781192496418953e-09,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 removable channel cover 2 (estimated)",
+      "group": "Base",
+      "max_abs_error_m": 2.9802322387695312e-08,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 removable channel cover 3 (estimated)",
+      "group": "Base",
+      "max_abs_error_m": 1.1920928955078125e-07,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 scalloped sensor bezel",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 sensor opening appearance 1 L",
+      "group": "Base",
+      "max_abs_error_m": 6.944173946976662e-08,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 sensor opening appearance 1 R",
+      "group": "Base",
+      "max_abs_error_m": 6.944173946976662e-08,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 sensor opening appearance 2 L",
+      "group": "Base",
+      "max_abs_error_m": 6.944173946976662e-08,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 sensor opening appearance 2 R",
+      "group": "Base",
+      "max_abs_error_m": 6.944173946976662e-08,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 sensor opening appearance 3 L",
+      "group": "Base",
+      "max_abs_error_m": 6.944173946976662e-08,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 sensor opening appearance 3 R",
+      "group": "Base",
+      "max_abs_error_m": 6.944173946976662e-08,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 tapered foot cover",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 vertical column extrusion",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 vertical column extrusion section 2",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "257 \u2022 vertical column extrusion section 3",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "455 \u2022 base flange -1",
+      "group": "Base",
+      "max_abs_error_m": 7.450580596923828e-09,
+      "material_match": true
+    },
+    {
+      "name": "455 \u2022 base flange 1",
+      "group": "Base",
+      "max_abs_error_m": 7.450580596923828e-09,
+      "material_match": true
+    },
+    {
+      "name": "455 \u2022 continuous handrail",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "455 \u2022 lower support arm -1",
+      "group": "Base",
+      "max_abs_error_m": 5.284024884311123e-09,
+      "material_match": true
+    },
+    {
+      "name": "455 \u2022 lower support arm 1",
+      "group": "Base",
+      "max_abs_error_m": 4.494823624412447e-09,
+      "material_match": true
+    },
+    {
+      "name": "455 \u2022 rear bridge mount",
+      "group": "Base",
+      "max_abs_error_m": 3.725290298461914e-08,
+      "material_match": true
+    },
+    {
+      "name": "455 \u2022 underside transverse support",
+      "group": "Base",
+      "max_abs_error_m": 3.725290298461914e-09,
+      "material_match": true
+    },
+    {
+      "name": "455 \u2022 upright seam -1 (estimated)",
+      "group": "Base",
+      "max_abs_error_m": 7.450580596923828e-09,
+      "material_match": true
+    },
+    {
+      "name": "455 \u2022 upright seam 1 (estimated)",
+      "group": "Base",
+      "max_abs_error_m": 7.450580596923828e-09,
+      "material_match": true
+    },
+    {
+      "name": "654 \u2022 Bearclaw glass top",
+      "group": "Base",
+      "max_abs_error_m": 2.7939677238464355e-09,
+      "material_match": true
+    },
+    {
+      "name": "654 \u2022 fascia rear seams",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "654 \u2022 lower platform chassis",
+      "group": "Base",
+      "max_abs_error_m": 1.862645149230957e-09,
+      "material_match": true
+    },
+    {
+      "name": "654 \u2022 rear connector enclosure",
+      "group": "Base",
+      "max_abs_error_m": 1.1175870895385742e-08,
+      "material_match": true
+    },
+    {
+      "name": "654 \u2022 rear deck center",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "654 \u2022 rear deck wing L",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "654 \u2022 rear deck wing R",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "654 \u2022 visual underside backing (estimated)",
+      "group": "Base",
+      "max_abs_error_m": 2.7939677238464355e-09,
+      "material_match": true
+    },
+    {
+      "name": "654 \u2022 wrapped side fascia",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "Adjustable leveling foot",
+      "group": "Base",
+      "max_abs_error_m": 1.1175870895385742e-08,
+      "material_match": true
+    },
+    {
+      "name": "Adjustable leveling foot.001",
+      "group": "Base",
+      "max_abs_error_m": 1.1175870895385742e-08,
+      "material_match": true
+    },
+    {
+      "name": "Adjustable leveling foot.002",
+      "group": "Base",
+      "max_abs_error_m": 1.1175870895385742e-08,
+      "material_match": true
+    },
+    {
+      "name": "Adjustable leveling foot.003",
+      "group": "Base",
+      "max_abs_error_m": 1.1175870895385742e-08,
+      "material_match": true
+    },
+    {
+      "name": "Column cover fixing slot",
+      "group": "Base",
+      "max_abs_error_m": 6.253673162648354e-09,
+      "material_match": true
+    },
+    {
+      "name": "Column cover fixing slot.001",
+      "group": "Base",
+      "max_abs_error_m": 6.253673162648354e-09,
+      "material_match": true
+    },
+    {
+      "name": "Column cover screw",
+      "group": "Base",
+      "max_abs_error_m": 2.0954757928848267e-09,
+      "material_match": true
+    },
+    {
+      "name": "Column cover screw.001",
+      "group": "Base",
+      "max_abs_error_m": 2.0954757928848267e-09,
+      "material_match": true
+    },
+    {
+      "name": "Display arm from mast",
+      "group": "Base",
+      "max_abs_error_m": 4.284083843231201e-08,
+      "material_match": true
+    },
+    {
+      "name": "Display arm \u2022 cable entry",
+      "group": "Base",
+      "max_abs_error_m": 5.168840289115906e-08,
+      "material_match": true
+    },
+    {
+      "name": "Display interface dark opening",
+      "group": "Base",
+      "max_abs_error_m": 6.461050361394882e-09,
+      "material_match": true
+    },
+    {
+      "name": "Display interface rim",
+      "group": "Base",
+      "max_abs_error_m": 1.2922100722789764e-08,
+      "material_match": true
+    },
+    {
+      "name": "Display \u2022 articulated cable lead",
+      "group": "Base",
+      "max_abs_error_m": 5.960464477539063e-08,
+      "material_match": true
+    },
+    {
+      "name": "Drip guard \u2022 clear roof",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "Drip guard \u2022 side L",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "Drip guard \u2022 side R",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "Foot lock collar",
+      "group": "Base",
+      "max_abs_error_m": 7.450580596923828e-09,
+      "material_match": true
+    },
+    {
+      "name": "Foot lock collar.001",
+      "group": "Base",
+      "max_abs_error_m": 7.450580596923828e-09,
+      "material_match": true
+    },
+    {
+      "name": "Foot lock collar.002",
+      "group": "Base",
+      "max_abs_error_m": 7.450580596923828e-09,
+      "material_match": true
+    },
+    {
+      "name": "Foot lock collar.003",
+      "group": "Base",
+      "max_abs_error_m": 7.450580596923828e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 01 row 01",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 01 row 02",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 01 row 03",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 01 row 04",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 01 row 05",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 01 row 06",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 01 row 07",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 01 row 08",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 01 row 09",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 01 row 10",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 01 row 11",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 01 row 12",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 01 row 13",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 01 row 14",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 01 row 15",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 01 row 16",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 01 row 17",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 01 row 18",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 01 row 19",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 01 row 20",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 01 row 21",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 01 row 22",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 01 row 23",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 02 row 01",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 02 row 02",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 02 row 03",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 02 row 04",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 02 row 05",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 02 row 06",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 02 row 07",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 02 row 08",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 02 row 09",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 02 row 10",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 02 row 11",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 02 row 12",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 02 row 13",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 02 row 14",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 02 row 15",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 02 row 16",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 02 row 17",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 02 row 18",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 02 row 19",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 02 row 20",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 02 row 21",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 02 row 22",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 02 row 23",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 03 row 01",
+      "group": "Base",
+      "max_abs_error_m": 3.3905962482094765e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 03 row 02",
+      "group": "Base",
+      "max_abs_error_m": 3.3905962482094765e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 03 row 03",
+      "group": "Base",
+      "max_abs_error_m": 3.3905962482094765e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 03 row 04",
+      "group": "Base",
+      "max_abs_error_m": 3.3905962482094765e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 03 row 05",
+      "group": "Base",
+      "max_abs_error_m": 3.3905962482094765e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 03 row 06",
+      "group": "Base",
+      "max_abs_error_m": 3.3905962482094765e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 03 row 07",
+      "group": "Base",
+      "max_abs_error_m": 3.3905962482094765e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 03 row 08",
+      "group": "Base",
+      "max_abs_error_m": 3.3905962482094765e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 03 row 09",
+      "group": "Base",
+      "max_abs_error_m": 3.3905962482094765e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 03 row 10",
+      "group": "Base",
+      "max_abs_error_m": 3.3905962482094765e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 03 row 11",
+      "group": "Base",
+      "max_abs_error_m": 3.3905962482094765e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 03 row 12",
+      "group": "Base",
+      "max_abs_error_m": 3.3905962482094765e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 03 row 13",
+      "group": "Base",
+      "max_abs_error_m": 3.3905962482094765e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 03 row 14",
+      "group": "Base",
+      "max_abs_error_m": 3.3905962482094765e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 03 row 15",
+      "group": "Base",
+      "max_abs_error_m": 3.3905962482094765e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 03 row 16",
+      "group": "Base",
+      "max_abs_error_m": 3.3905962482094765e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 03 row 17",
+      "group": "Base",
+      "max_abs_error_m": 3.3905962482094765e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 03 row 18",
+      "group": "Base",
+      "max_abs_error_m": 3.3905962482094765e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 03 row 19",
+      "group": "Base",
+      "max_abs_error_m": 3.3905962482094765e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 03 row 20",
+      "group": "Base",
+      "max_abs_error_m": 3.3905962482094765e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 03 row 21",
+      "group": "Base",
+      "max_abs_error_m": 3.3905962482094765e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 03 row 22",
+      "group": "Base",
+      "max_abs_error_m": 3.3905962482094765e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 03 row 23",
+      "group": "Base",
+      "max_abs_error_m": 3.3905962482094765e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 04 row 01",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 04 row 02",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 04 row 03",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 04 row 04",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 04 row 05",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 04 row 06",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 04 row 07",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 04 row 08",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 04 row 09",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 04 row 10",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 04 row 11",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 04 row 12",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 04 row 13",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 04 row 14",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 04 row 15",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 04 row 16",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 04 row 17",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 04 row 18",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 04 row 19",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 04 row 20",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 04 row 21",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 04 row 22",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 04 row 23",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 05 row 01",
+      "group": "Base",
+      "max_abs_error_m": 9.313225746154785e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 05 row 02",
+      "group": "Base",
+      "max_abs_error_m": 9.313225746154785e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 05 row 03",
+      "group": "Base",
+      "max_abs_error_m": 9.313225746154785e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 05 row 04",
+      "group": "Base",
+      "max_abs_error_m": 9.313225746154785e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 05 row 05",
+      "group": "Base",
+      "max_abs_error_m": 9.313225746154785e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 05 row 06",
+      "group": "Base",
+      "max_abs_error_m": 9.313225746154785e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 05 row 07",
+      "group": "Base",
+      "max_abs_error_m": 9.313225746154785e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 05 row 08",
+      "group": "Base",
+      "max_abs_error_m": 9.313225746154785e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 05 row 09",
+      "group": "Base",
+      "max_abs_error_m": 9.313225746154785e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 05 row 10",
+      "group": "Base",
+      "max_abs_error_m": 9.313225746154785e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 05 row 11",
+      "group": "Base",
+      "max_abs_error_m": 9.313225746154785e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 05 row 12",
+      "group": "Base",
+      "max_abs_error_m": 9.313225746154785e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 05 row 13",
+      "group": "Base",
+      "max_abs_error_m": 9.313225746154785e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 05 row 14",
+      "group": "Base",
+      "max_abs_error_m": 9.313225746154785e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 05 row 15",
+      "group": "Base",
+      "max_abs_error_m": 9.313225746154785e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 05 row 16",
+      "group": "Base",
+      "max_abs_error_m": 9.313225746154785e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 05 row 17",
+      "group": "Base",
+      "max_abs_error_m": 9.313225746154785e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 05 row 18",
+      "group": "Base",
+      "max_abs_error_m": 9.313225746154785e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 05 row 19",
+      "group": "Base",
+      "max_abs_error_m": 9.313225746154785e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 05 row 20",
+      "group": "Base",
+      "max_abs_error_m": 9.313225746154785e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 05 row 21",
+      "group": "Base",
+      "max_abs_error_m": 9.313225746154785e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 05 row 22",
+      "group": "Base",
+      "max_abs_error_m": 9.313225746154785e-09,
+      "material_match": true
+    },
+    {
+      "name": "Glass stripe \u2022 band 05 row 23",
+      "group": "Base",
+      "max_abs_error_m": 9.313225746154785e-09,
+      "material_match": true
+    },
+    {
+      "name": "Illuminated footprint \u2022 L",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "Illuminated footprint \u2022 R",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "Indicator \u2022 rear network",
+      "group": "Base",
+      "max_abs_error_m": 6.461050361394882e-09,
+      "material_match": true
+    },
+    {
+      "name": "Indicator \u2022 rear power",
+      "group": "Base",
+      "max_abs_error_m": 6.461050361394882e-09,
+      "material_match": true
+    },
+    {
+      "name": "LAN socket dark opening",
+      "group": "Base",
+      "max_abs_error_m": 6.461050361394882e-09,
+      "material_match": true
+    },
+    {
+      "name": "LAN socket rim",
+      "group": "Base",
+      "max_abs_error_m": 1.2922100722789764e-08,
+      "material_match": true
+    },
+    {
+      "name": "Power socket dark center",
+      "group": "Base",
+      "max_abs_error_m": 6.461050361394882e-09,
+      "material_match": true
+    },
+    {
+      "name": "Power socket yellow ring",
+      "group": "Base",
+      "max_abs_error_m": 1.3562384992837906e-08,
+      "material_match": true
+    },
+    {
+      "name": "Rear interface panel frame",
+      "group": "Base",
+      "max_abs_error_m": 7.916241884231567e-09,
+      "material_match": true
+    },
+    {
+      "name": "Reset button",
+      "group": "Base",
+      "max_abs_error_m": 6.461050361394882e-09,
+      "material_match": true
+    },
+    {
+      "name": "Speaker grille \u2022 line 1",
+      "group": "Base",
+      "max_abs_error_m": 3.472086973488331e-08,
+      "material_match": true
+    },
+    {
+      "name": "Speaker grille \u2022 line 2",
+      "group": "Base",
+      "max_abs_error_m": 3.472086973488331e-08,
+      "material_match": true
+    },
+    {
+      "name": "Speaker grille \u2022 line 3",
+      "group": "Base",
+      "max_abs_error_m": 3.472086973488331e-08,
+      "material_match": true
+    },
+    {
+      "name": "Spirit level bubble \u2022 static",
+      "group": "Base",
+      "max_abs_error_m": 2.6775524020195007e-09,
+      "material_match": true
+    },
+    {
+      "name": "Spirit level housing",
+      "group": "Base",
+      "max_abs_error_m": 1.3969838619232178e-08,
+      "material_match": true
+    },
+    {
+      "name": "Spirit level support",
+      "group": "Base",
+      "max_abs_error_m": 7.450580596923828e-09,
+      "material_match": true
+    },
+    {
+      "name": "Spirit level target",
+      "group": "Base",
+      "max_abs_error_m": 1.1175870895385742e-08,
+      "material_match": true
+    },
+    {
+      "name": "Spirit level window",
+      "group": "Base",
+      "max_abs_error_m": 1.210719347000122e-08,
+      "material_match": true
+    },
+    {
+      "name": "USB socket dark opening",
+      "group": "Base",
+      "max_abs_error_m": 6.461050361394882e-09,
+      "material_match": true
+    },
+    {
+      "name": "USB socket rim",
+      "group": "Base",
+      "max_abs_error_m": 1.2922100722789764e-08,
+      "material_match": true
+    },
+    {
+      "name": "Ultrasonic power indicator",
+      "group": "Base",
+      "max_abs_error_m": 2.0954757928848267e-08,
+      "material_match": true
+    },
+    {
+      "name": "WPS button",
+      "group": "Base",
+      "max_abs_error_m": 6.461050361394882e-09,
+      "material_match": true
+    },
+    {
+      "name": "Wheel axle",
+      "group": "Base",
+      "max_abs_error_m": 4.6566128730773926e-09,
+      "material_match": true
+    },
+    {
+      "name": "Wheel axle.001",
+      "group": "Base",
+      "max_abs_error_m": 4.6566128730773926e-09,
+      "material_match": true
+    },
+    {
+      "name": "Wheel guard groove appearance -1 1",
+      "group": "Base",
+      "max_abs_error_m": 8.432334136498909e-09,
+      "material_match": true
+    },
+    {
+      "name": "Wheel guard groove appearance -1 2",
+      "group": "Base",
+      "max_abs_error_m": 1.1600552518586937e-08,
+      "material_match": true
+    },
+    {
+      "name": "Wheel guard groove appearance -1 3",
+      "group": "Base",
+      "max_abs_error_m": 3.725290298461914e-09,
+      "material_match": true
+    },
+    {
+      "name": "Wheel guard groove appearance -1 4",
+      "group": "Base",
+      "max_abs_error_m": 3.725290298461914e-09,
+      "material_match": true
+    },
+    {
+      "name": "Wheel guard groove appearance -1 5",
+      "group": "Base",
+      "max_abs_error_m": 3.725290298461914e-09,
+      "material_match": true
+    },
+    {
+      "name": "Wheel guard groove appearance -1 6",
+      "group": "Base",
+      "max_abs_error_m": 3.725290298461914e-09,
+      "material_match": true
+    },
+    {
+      "name": "Wheel guard groove appearance -1 7",
+      "group": "Base",
+      "max_abs_error_m": 8.885569946492922e-09,
+      "material_match": true
+    },
+    {
+      "name": "Wheel guard groove appearance 1 1",
+      "group": "Base",
+      "max_abs_error_m": 8.432334136498909e-09,
+      "material_match": true
+    },
+    {
+      "name": "Wheel guard groove appearance 1 2",
+      "group": "Base",
+      "max_abs_error_m": 1.1600552518586937e-08,
+      "material_match": true
+    },
+    {
+      "name": "Wheel guard groove appearance 1 3",
+      "group": "Base",
+      "max_abs_error_m": 3.725290298461914e-09,
+      "material_match": true
+    },
+    {
+      "name": "Wheel guard groove appearance 1 4",
+      "group": "Base",
+      "max_abs_error_m": 3.725290298461914e-09,
+      "material_match": true
+    },
+    {
+      "name": "Wheel guard groove appearance 1 5",
+      "group": "Base",
+      "max_abs_error_m": 3.725290298461914e-09,
+      "material_match": true
+    },
+    {
+      "name": "Wheel guard groove appearance 1 6",
+      "group": "Base",
+      "max_abs_error_m": 3.725290298461914e-09,
+      "material_match": true
+    },
+    {
+      "name": "Wheel guard groove appearance 1 7",
+      "group": "Base",
+      "max_abs_error_m": 8.885569946492922e-09,
+      "material_match": true
+    },
+    {
+      "name": "Wheel guard shell -1",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "Wheel guard shell 1",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "Wheel hub inset 1",
+      "group": "Base",
+      "max_abs_error_m": 1.2441887520253658e-08,
+      "material_match": true
+    },
+    {
+      "name": "Wheel hub inset 2",
+      "group": "Base",
+      "max_abs_error_m": 5.587935447692871e-09,
+      "material_match": true
+    },
+    {
+      "name": "Wheel hub washer 1",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "Wheel hub washer 2",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "Wheel stationary side housing -1",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "Wheel stationary side housing 1",
+      "group": "Base",
+      "max_abs_error_m": 0.0,
+      "material_match": true
+    },
+    {
+      "name": "Transport wheel tread",
+      "group": "Wheel_L",
+      "max_abs_error_m": 1.1175870895385742e-08,
+      "material_match": true
+    },
+    {
+      "name": "Transport wheel tread.001",
+      "group": "Wheel_R",
+      "max_abs_error_m": 1.1175870895385742e-08,
+      "material_match": true
+    },
+    {
+      "name": "Display bottom swivel housing",
+      "group": "Display_Yaw",
+      "max_abs_error_m": 4.190951585769653e-08,
+      "material_match": true
+    },
+    {
+      "name": "Display \u2022 USB dark opening",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 2.584420144557953e-08,
+      "material_match": true
+    },
+    {
+      "name": "Display \u2022 USB socket frame",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 1.5366822481155396e-08,
+      "material_match": true
+    },
+    {
+      "name": "Display \u2022 USB tongue",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 1.9674189388751984e-08,
+      "material_match": true
+    },
+    {
+      "name": "Display \u2022 data plug",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 2.0954757928848267e-08,
+      "material_match": true
+    },
+    {
+      "name": "Display \u2022 data socket dark opening",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 5.727633833885193e-08,
+      "material_match": true
+    },
+    {
+      "name": "Display \u2022 data socket frame",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 5.168840289115906e-08,
+      "material_match": true
+    },
+    {
+      "name": "Display \u2022 rear cover",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 4.0978193283081055e-08,
+      "material_match": true
+    },
+    {
+      "name": "Display \u2022 rear cover seam",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 2.9802322387695312e-08,
+      "material_match": true
+    },
+    {
+      "name": "Display \u2022 transparent cover",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 3.051757824223955e-08,
+      "material_match": true
+    },
+    {
+      "name": "ID display active image",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 1.8000602786116815e-08,
+      "material_match": true
+    },
+    {
+      "name": "ID display glass bezel",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 3.051757824223955e-08,
+      "material_match": true
+    },
+    {
+      "name": "ID display rear shell",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 3.179311747203428e-08,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 button recall",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 2.8513066574475943e-08,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 button send",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 5.329906227480308e-08,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 button tare",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 5.1434223102830856e-08,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 capacity",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 1.7455373813035635e-08,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 confirm tile",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 4.9096066517817505e-09,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 connection wifi 1",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 1.7260290086085206e-08,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 connection wifi 2",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 4.231793315767618e-08,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 connection wifi 3",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 5.017638216031628e-08,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 connection wifi 4",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 4.365801808958736e-08,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 divider",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 4.9096066517817505e-09,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 divider.001",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 4.9096066517817505e-09,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 header",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 8.040666577002753e-09,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 height region",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 5.562975990969221e-08,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 kg",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 4.158788624586407e-08,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 message region",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 4.065558312227324e-08,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 ready foot L",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 5.13314359906758e-08,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 ready foot R",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 5.13314359906758e-08,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 ready label",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 1.7455373813035635e-08,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 recall region",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 5.778670320033541e-09,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 settings region",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 7.297098703062943e-09,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 state",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 4.683779630809681e-08,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 tare region",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 4.9096066517817505e-09,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 title",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 5.292080351715356e-08,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 toolbar",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 1.667141913408443e-08,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 weight",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 3.5551291688307174e-08,
+      "material_match": true
+    },
+    {
+      "name": "SIM \u2022 weight region",
+      "group": "Display_Tilt",
+      "max_abs_error_m": 4.50175059452107e-08,
+      "material_match": true
+    }
+  ],
+  "max_component_bound_error_m": 1.1920928955078125e-07,
+  "bodies": {
+    "/SecaScaleUpUltra/Links/Base": 27.799999237060547,
+    "/SecaScaleUpUltra/Links/Wheel_L": 0.10000000149011612,
+    "/SecaScaleUpUltra/Links/Wheel_R": 0.10000000149011612,
+    "/SecaScaleUpUltra/Links/Display_Yaw": 0.10000000149011612,
+    "/SecaScaleUpUltra/Links/Display_Tilt": 0.8999999761581421
+  },
+  "inertia_kg_m2": {
+    "/SecaScaleUpUltra/Links/Base": [
+      1.2169760465621948,
+      11.818265914916992,
+      12.071405410766602
+    ],
+    "/SecaScaleUpUltra/Links/Wheel_L": [
+      9.244999819202349e-05,
+      5.230000169831328e-05,
+      5.230000169831328e-05
+    ],
+    "/SecaScaleUpUltra/Links/Wheel_R": [
+      9.244999819202349e-05,
+      5.230000169831328e-05,
+      5.230000169831328e-05
+    ],
+    "/SecaScaleUpUltra/Links/Display_Yaw": [
+      6.8250001277192496e-06,
+      6.8250001277192496e-06,
+      1.1250000170548446e-05
+    ],
+    "/SecaScaleUpUltra/Links/Display_Tilt": [
+      0.0013618799857795238,
+      0.0018227429827675223,
+      0.0005232869880273938
+    ]
+  },
+  "joints": [
+    {
+      "name": "LeftWheel",
+      "body0": "/SecaScaleUpUltra/Links/Base",
+      "body1": "/SecaScaleUpUltra/Links/Wheel_L",
+      "axis": "X",
+      "world_joint_frame_error_m": 6.415257065770715e-09,
+      "disabled_connected_collisions": true
+    },
+    {
+      "name": "RightWheel",
+      "body0": "/SecaScaleUpUltra/Links/Base",
+      "body1": "/SecaScaleUpUltra/Links/Wheel_R",
+      "axis": "X",
+      "world_joint_frame_error_m": 6.415257065770715e-09,
+      "disabled_connected_collisions": true
+    },
+    {
+      "name": "DisplaySwivel",
+      "body0": "/SecaScaleUpUltra/Links/Base",
+      "body1": "/SecaScaleUpUltra/Links/Display_Yaw",
+      "axis": "Z",
+      "world_joint_frame_error_m": 4.8349836432170556e-08,
+      "disabled_connected_collisions": true
+    },
+    {
+      "name": "DisplayTilt",
+      "body0": "/SecaScaleUpUltra/Links/Display_Yaw",
+      "body1": "/SecaScaleUpUltra/Links/Display_Tilt",
+      "axis": "X",
+      "world_joint_frame_error_m": 0.0,
+      "disabled_connected_collisions": true
+    }
+  ],
+  "drive_checks": {
+    "DisplaySwivel": {
+      "absent_from_base": true,
+      "present_in_overlay": true,
+      "type_force": true,
+      "target_zero": true,
+      "stiffness": true,
+      "damping": true,
+      "force_cap": true
+    },
+    "DisplayTilt": {
+      "absent_from_base": true,
+      "present_in_overlay": true,
+      "type_force": true,
+      "target_zero": true,
+      "stiffness": true,
+      "damping": true,
+      "force_cap": true
+    },
+    "LeftWheel": {
+      "no_drive_in_base_or_overlay": true
+    },
+    "RightWheel": {
+      "no_drive_in_base_or_overlay": true
+    }
+  },
+  "unfiltered_proxy_intersections": [],
+  "bad_colliders": [],
+  "visual_meshes": 272,
+  "collider_meshes": 42,
+  "visual_materials": 46,
+  "unresolved": [],
+  "scope": "USD structure, saved-pose component bounds, link frames and convex proxy intersections; no dynamic runtime or physical-device validation."
+}

@@ -1,0 +1,60 @@
+{
+  "files": {
+    "seca_scale_up_ultra_articulated.usda": {
+      "delivered_sha256": "7963f11a7d1b6137af307657f0a84d444c87e9d0867d05e568d5acc67652bb41",
+      "rebuilt_sha256": "7963f11a7d1b6137af307657f0a84d444c87e9d0867d05e568d5acc67652bb41",
+      "identical": true
+    },
+    "layers/illustrative_driven.usda": {
+      "delivered_sha256": "9ac1f57f9410ce43dd2365df3c2164181b9cfd55ef6b0cd0e271a90adfb636c6",
+      "rebuilt_sha256": "9ac1f57f9410ce43dd2365df3c2164181b9cfd55ef6b0cd0e271a90adfb636c6",
+      "identical": true
+    },
+    "layers/Wheel_R.usdc": {
+      "delivered_sha256": "41f8f7d61c902d722526e9cef5fd8bc5b098605647ebcba51bdf3b4b592ab28d",
+      "rebuilt_sha256": "41f8f7d61c902d722526e9cef5fd8bc5b098605647ebcba51bdf3b4b592ab28d",
+      "identical": true
+    },
+    "layers/Display_Tilt.usdc": {
+      "delivered_sha256": "3c60bb1641abbd7ae9fce4cb4dcd5d67cfc888b9032cc09c9f23bc3656bb3d36",
+      "rebuilt_sha256": "3c60bb1641abbd7ae9fce4cb4dcd5d67cfc888b9032cc09c9f23bc3656bb3d36",
+      "identical": true
+    },
+    "layers/Wheel_L.usdc": {
+      "delivered_sha256": "9bf598a6881ded5b8e3a51612c340a2c29541a91f00c12503ea58581442477df",
+      "rebuilt_sha256": "9bf598a6881ded5b8e3a51612c340a2c29541a91f00c12503ea58581442477df",
+      "identical": true
+    },
+    "layers/Base.usdc": {
+      "delivered_sha256": "024d9fd8db221f9771ea824a5c267969efae09b4178a51326aa6865f3fc628f4",
+      "rebuilt_sha256": "024d9fd8db221f9771ea824a5c267969efae09b4178a51326aa6865f3fc628f4",
+      "identical": true
+    },
+    "layers/Display_Yaw.usdc": {
+      "delivered_sha256": "a7be5b3f55d4a2927e8b329f3af963af41140856a505df49604febc2409c90e6",
+      "rebuilt_sha256": "a7be5b3f55d4a2927e8b329f3af963af41140856a505df49604febc2409c90e6",
+      "identical": true
+    }
+  },
+  "rebuilt_checks": {
+    "source_blend_unchanged": true,
+    "all_272_component_bounds_match": true,
+    "all_source_material_bindings_match": true,
+    "five_bodies_four_revolute_joints": true,
+    "mass_sums_to_29kg": true,
+    "joint_frames_coincident": true,
+    "joint_graph_axes_and_limits_match_study": true,
+    "finite_physical_inertia_and_normalized_axes": true,
+    "connected_pair_collisions_disabled": true,
+    "only_display_mount_pair_explicitly_filtered": true,
+    "no_unfiltered_proxy_overlap_over_10um": true,
+    "closed_collider_meshes_and_bindings": true,
+    "visual_materials_have_surface_and_labels": true,
+    "no_unresolved_dependencies": true,
+    "drives_only_in_optional_overlay": true,
+    "usd_meters_z_up": true
+  },
+  "all_rebuilt_checks_passed": true,
+  "all_usd_files_identical": true,
+  "scope": "Rebuilt USD root, five visual layers and optional drive overlay from packaged inputs in a clean isolated directory with the local engineering Python. Does not validate real-world accuracy or USD dynamics."
+}

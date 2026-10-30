@@ -1,0 +1,26 @@
+{
+  "archive_sha256": "934a56969c2923a6d6bf41559f3667fff8852af3cb8f54be6559ade5bd4439e9",
+  "archive_bytes": 19048995,
+  "checks": {
+    "zip_crc_pass": true,
+    "all_member_hashes_match": true,
+    "all_relocated_asset_and_source_hashes_match": true,
+    "relocated_simready_profile_pass": true,
+    "relocated_usdchecker_base_pass": true,
+    "relocated_usdchecker_overlay_pass": true,
+    "relocated_articulation_checks_pass": true,
+    "relocated_blender_reopen_pass": true,
+    "relocated_synthetic_checks_pass": true,
+    "relocated_analytic_checks_pass": true
+  },
+  "manifest_files": 150,
+  "asset_and_source_files_checked": 28,
+  "mismatches": [],
+  "relocated_mismatches": [],
+  "profile_optional_static_feature_status": {
+    "FET_004_STANDARD": true,
+    "FET_004_PHYSX": true,
+    "FET_100_ISAAC": false
+  },
+  "scope": "Archive integrity and relocated structural/source/fictional tests only; no physical, PhysX runtime or manufacturer validation."
+}

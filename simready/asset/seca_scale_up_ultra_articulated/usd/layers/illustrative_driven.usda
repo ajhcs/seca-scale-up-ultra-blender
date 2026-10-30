@@ -1,0 +1,55 @@
+#usda 1.0
+(
+    customLayerData = {
+        dictionary SimReady_Metadata = {
+            float3 asset_extents = (0.8010001, 0.5827, 2.387)
+            string asset_license = "CC-BY-4.0"
+            string asset_name = "seca Scale-up Ultra independent articulated reconstruction"
+            string asset_type = "prop"
+            string author = "seca-scale-up-ultra-blender contributors"
+            string category = "medical equipment"
+            double mass = 29
+            string qcode = "Q1421918"
+            int rigid_body_count = 5
+            string source_file = "https://github.com/ajhcs/seca-scale-up-ultra-blender/tree/ab13079013d5a4869acc56ac22884aa226b19502"
+            string usd_date_generated = "2026-10-30"
+        }
+    }
+    defaultPrim = "SecaScaleUpUltra"
+    metersPerUnit = 1
+    subLayers = [
+        @../seca_scale_up_ultra_articulated.usda@
+    ]
+    upAxis = "Z"
+)
+
+over "SecaScaleUpUltra"
+{
+    over "Joints"
+    {
+        over "DisplaySwivel" (
+            prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+        )
+        {
+            float drive:angular:physics:damping = 0.005
+            float drive:angular:physics:maxForce = 1
+            float drive:angular:physics:stiffness = 0.05
+            float drive:angular:physics:targetPosition = 0
+            float drive:angular:physics:targetVelocity = 0
+            uniform token drive:angular:physics:type = "force"
+        }
+
+        over "DisplayTilt" (
+            prepend apiSchemas = ["PhysicsDriveAPI:angular"]
+        )
+        {
+            float drive:angular:physics:damping = 0.01
+            float drive:angular:physics:maxForce = 1.5
+            float drive:angular:physics:stiffness = 0.1
+            float drive:angular:physics:targetPosition = 0
+            float drive:angular:physics:targetVelocity = 0
+            uniform token drive:angular:physics:type = "force"
+        }
+    }
+}
+

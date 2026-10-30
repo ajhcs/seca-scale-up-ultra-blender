@@ -1,0 +1,78 @@
+{
+  "checks": {
+    "original_matches_recorded_hash": true,
+    "prior_text_blocks_unchanged": true,
+    "same_object_mesh_material_counts": true,
+    "articulation_note_added": true,
+    "four_study_controls": true
+  },
+  "prior": {
+    "objects": 842,
+    "meshes": 371,
+    "materials": 79,
+    "texts": {
+      "clearance_study.py": "24048aa385c6ef5ebd30ac30239dd57a56e7a4205c51d98ac40185345924784d",
+      "display_fit_study.py": "bcc4f4011b8d7fe30340ddc0b11b76a6d7a8968bfd998fd2d5c96f9697ffc4bd",
+      "level_math.py": "beff3c4308951e974c842e72395669907696bb7028976816d0a5f6ba6206b046",
+      "level_study.py": "11f93a7634a046a927349654c53e4f2f16370b276b60dcab0db68e0216de79d8",
+      "load_math.py": "d6071a1b9eee0d29bafb38cb7b9e41f172f7baa215ba7dfd3d1229cae2c5fc71",
+      "load_study.py": "661a953197de56f0e1c3267114095b9b077f778b2a84a2085d338252fdb06ec3",
+      "platform_geometry.py": "aa73647bcd270d8dd36b89cdb8b513bfdf035e434279735c4417ac1418e1c317",
+      "scenario_launcher.py": "e39b8353111343a349ad042a28454a9952f40ebfb65deab81c49a1967557b741",
+      "scenario_replay.py": "c2616b22ef8c943ea14ed44dba737de0fb217e9231160b9db4f80345176c56a3",
+      "seca_scenario.json": "c2641b5743b64fc22b726f795b249218e13b746f05c84cdf85520e418d99765b",
+      "seca_simulator.py": "7400af91c6f531a24f17002dfb466ab40d23cf8a4d101b5409648da5e1b277e2",
+      "transport_animation.py": "84ed38b3b13c41f957a47bafcde3867ec031a784912f60fe0b40ae69621a9479"
+    }
+  },
+  "current": {
+    "objects": 842,
+    "meshes": 371,
+    "materials": 79,
+    "texts": {
+      "clearance_study.py": "24048aa385c6ef5ebd30ac30239dd57a56e7a4205c51d98ac40185345924784d",
+      "display_fit_study.py": "bcc4f4011b8d7fe30340ddc0b11b76a6d7a8968bfd998fd2d5c96f9697ffc4bd",
+      "level_math.py": "beff3c4308951e974c842e72395669907696bb7028976816d0a5f6ba6206b046",
+      "level_study.py": "11f93a7634a046a927349654c53e4f2f16370b276b60dcab0db68e0216de79d8",
+      "load_math.py": "d6071a1b9eee0d29bafb38cb7b9e41f172f7baa215ba7dfd3d1229cae2c5fc71",
+      "load_study.py": "661a953197de56f0e1c3267114095b9b077f778b2a84a2085d338252fdb06ec3",
+      "platform_geometry.py": "aa73647bcd270d8dd36b89cdb8b513bfdf035e434279735c4417ac1418e1c317",
+      "scenario_launcher.py": "e39b8353111343a349ad042a28454a9952f40ebfb65deab81c49a1967557b741",
+      "scenario_replay.py": "c2616b22ef8c943ea14ed44dba737de0fb217e9231160b9db4f80345176c56a3",
+      "seca_scenario.json": "c2641b5743b64fc22b726f795b249218e13b746f05c84cdf85520e418d99765b",
+      "seca_simulator.py": "7400af91c6f531a24f17002dfb466ab40d23cf8a4d101b5409648da5e1b277e2",
+      "SIMREADY_ARTICULATION_NOTES.txt": "7970c7eea6021a661e7563c1e6cfae906d7b85769b3733b79facf0504a892504",
+      "transport_animation.py": "84ed38b3b13c41f957a47bafcde3867ec031a784912f60fe0b40ae69621a9479"
+    }
+  },
+  "controls": [
+    {
+      "name": "CONTROL \u2022 wheel L",
+      "axis": "x",
+      "valid": true,
+      "limit_rad": null
+    },
+    {
+      "name": "CONTROL \u2022 wheel R",
+      "axis": "x",
+      "valid": true,
+      "limit_rad": null
+    },
+    {
+      "name": "CONTROL \u2022 display swivel",
+      "axis": "z",
+      "valid": true,
+      "limit_rad": 0.6
+    },
+    {
+      "name": "CONTROL \u2022 display tilt and rotation",
+      "axis": "x",
+      "valid": true,
+      "limit_rad": 0.4
+    }
+  ],
+  "original_sha256": "57e64f249073c472abacbc942eb990a76657a26333f56e80ec922815e7c5525d",
+  "prior_sha256": "c258d11395cb2e42965d8b9e58f96d46d8ab681a55b537bdfc492b712e15dc9a",
+  "current_sha256": "9bf953ea7a2e9be303e8a4295b2c6a2b59d638372ddb407050e058c3511adf2a",
+  "scope": "Blender data and constraints reopened with use_scripts=False; embedded behavior was not executed or validated."
+}
